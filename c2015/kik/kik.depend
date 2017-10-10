@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1430999954 source:c:\users\jasiek\dropbox\c++\c\kik\main.cpp
+	<windows.h>
+	<io.h>
+	<stdio.h>
+	<winsock2.h>
+
+1430741677 source:c:\users\jasiek\dropbox\c++\c\kik\socket.cpp
+	<io.h>
+	<stdio.h>
+	<winsock2.h>
+

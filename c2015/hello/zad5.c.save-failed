@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main()
+{
+    int max, min, tab[]={3,43,5,56,87,2,3};
+    max=fnajwieksza();
+    min=fnajmniejsza();
+    printf("Najmniejsza liczba to: %d\nNajwieksza liczba to: %d",min,max);
+}
+
+int fnajwieksza(int tab[])
+{
+    int max, i=0;
+    do
+    {
+        if (tab[i]>max)
+            max=tab[i];
+        i++;
+    }while
+    return (max);
+}
+
+int fnajmniejsza(int tab[])
+{
+    int min, i=0;
+    do
+    {
+        if (tab[i]<min)
+            min=tab[i];
+        i++;
+    }while(tab[i]==0)
+    return (min);
+}

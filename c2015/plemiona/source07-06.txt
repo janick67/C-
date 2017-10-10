@@ -1,0 +1,1236 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>janick67 (337|691) - Plemiona - Œwiat 92</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link id="favicon" rel="shortcut icon"  href="/favicon.ico" />
+
+	<link rel="stylesheet" type="text/css" href="/merged/game.css?1433334734" />
+
+			<link rel="stylesheet" type="text/css" href="/css/game/map.css?1433334733" />
+
+			<link rel="stylesheet" type="text/css" href="/css/game/village_target.css?1433334733" />
+
+		
+	<script type="text/javascript" src="/merged/game.js?1433334734"></script>
+
+			<script type="text/javascript" src="/merged/map.js?1433334734"></script>
+
+			<script type="text/javascript" src="/js/game/twmap_drag.js?1429184240"></script>
+
+	
+	
+	
+	<script type="text/javascript">
+        //<![CDATA[
+        var sds = false;
+		var image_base = "http://dspl.innogamescdn.com/8.34/26279/graphic/";
+		var mobile = false;
+		var mobile_on_normal = false;
+        var mobiledevice = false;
+		var premium = false;
+		var server_utc_diff = 7200;
+
+		var game_data = {"player":{"name":"janick67","ally":"4816","sitter":"0","sleep_start":"0","sitter_type":"normal","sleep_end":"0","sleep_last":"0","interstitial":"0","email_valid":"1","villages":"1","incomings":"0","supports":0,"knight_location":"70327","knight_unit":"923281185","rank":10334,"points":"757","date_started":"1432883199","is_guest":"0","birthdate":"0000-00-00","id":"2685372","quest_progress":"0","premium":false,"account_manager":false,"farm_manager":true,"points_formatted":"757","rank_formatted":"10<span class=\"grey\">.<\/span>334","pp":"554","new_ally_application":"0","new_ally_invite":"0","new_buddy_request":"0","new_forum_post":"21","new_igm":"0","new_items":"0","new_report":"0","fire_pixel":"0","new_quest":"1"},"village":{"id":70327,"name":"janick67","wood_prod":0.069111744178888,"stone_prod":0.069111744178888,"iron_prod":0.069111744178888,"storage_max":11932,"pop_max":1613,"wood_float":1477.6551209766,"stone_float":2611.6551209766,"iron_float":5430.6551209766,"wood":1478,"stone":2612,"iron":5431,"pop":1613,"x":337,"y":691,"trader_away":6,"bonus_id":null,"bonus":null,"buildings":{"village":"70327","main":"17","farm":"13","storage":"13","place":"1","barracks":"5","church":"0","church_f":"0","smith":"11","wood":"15","stone":"15","iron":"15","market":"6","stable":"3","wall":"1","garage":"0","hide":"2","snob":"0","statue":"1","watchtower":"0"},"player_id":"2685372","res":[1478,0.069111744178888,2612,0.069111744178888,5431,0.069111744178888,11932,1613,1613],"coord":"337|691","is_farm_upgradable":true},"nav":{"parent":2},"link_base":"\/game.php?village=70327&amp;screen=","link_base_pure":"\/game.php?village=70327&screen=","csrf":"8c6e49b0","world":"pl92","market":"pl","RTL":false,"version":"26279 8.34","majorVersion":"8.34","screen":"map","mode":null,"device":"desktop","pregame":false};
+		var csrf_token = '8c6e49b0';
+			
+		UI.AutoComplete.url = '/game.php?village=70327&ajaxaction=autocomplete&h=8c6e49b0&screen=api';
+		ScriptAPI.url = '/game.php?village=70327&ajax=save_script&screen=api';
+		ScriptAPI.version = parseFloat(game_data.majorVersion);
+
+		
+		var userCSS = false;
+		
+		var isIE7 = false;
+
+		var topmenuIsAlwaysVisible = false;
+		
+				VillageContext._urls.overview = '/game.php?village=__village__&screen=overview';
+		VillageContext._urls.info = '/game.php?village=70327&id=__village__&screen=info_village';
+		VillageContext._urls.fav = '/game.php?village=70327&id=__village__&ajaxaction=add_target&h=8c6e49b0&json=1&screen=info_village';
+		VillageContext._urls.unfav = '/game.php?village=70327&id=__village__&ajaxaction=del_target&h=8c6e49b0&json=1&screen=info_village';
+		VillageContext._urls.claim = '/game.php?village=70327&id=__village__&ajaxaction=toggle_reserve_village&h=8c6e49b0&json=1&screen=info_village';
+		VillageContext._urls.market = '/game.php?village=70327&mode=send&target=__village__&screen=market';
+		VillageContext._urls.place = '/game.php?village=70327&target=__village__&screen=place';
+		VillageContext._urls.recruit = '/game.php?village=__village__&screen=train';
+		VillageContext._urls.map = '/game.php?village=70327&beacon=1&id=__village__&screen=map';
+		VillageContext._urls.unclaim = VillageContext._urls.claim;
+        VillageContext.claim_enabled = true;
+        VillageContext.igm_enabled = true;
+        VillageContext.send_troops_enabled = true;
+        VillageContext.send_attack_disabled = false;
+				
+
+		
+		TribalWars._settings = {"sound":0,"map_casual_hide":1,"map_show_watchtower":0,"bn_attack":1,"bn_warehouse":1,"bn_mail":1,"bn_building":1,"bn_suppress_prompt":1,"inline_notification_building":1,"chat_enabled":0,"chat_sound_enabled":1};
+
+		$(document).ready( function() {
+			UI.ToolTip( $( '.group_tooltip' ), { delay: 1000 } );
+			VillageContext.init();
+						Quests.setQuestData({"34":{"id":34,"goals_completed":0,"goals_total":7,"opened":true,"finished":false,"can_be_skipped":false,"title":"Podb\u00f3j nowych l\u0105d\u00f3w","icon":"buildings\/snob.png","state":"active"},"38":{"id":38,"goals_completed":0,"goals_total":1,"opened":true,"finished":false,"can_be_skipped":false,"title":"Lojalni zwolennicy","icon":"icons\/spear.png","state":"active"},"40":{"id":40,"goals_completed":0,"goals_total":1,"opened":true,"finished":false,"can_be_skipped":false,"title":"Ochrona imperium","icon":"icons\/wall.png","state":"active"},"44":{"id":44,"goals_completed":0,"goals_total":1,"opened":true,"finished":false,"can_be_skipped":false,"title":"Wyposa\u017cenie zbrojowni","icon":"unit\/unit_knight.png","state":"active"},"10004":{"id":10004,"goals_completed":0,"goals_total":3,"opened":true,"finished":false,"can_be_skipped":false,"title":"Dr. Jekyll i Mr. Hyde","icon":"events\/royalty\/quest_icon.png","state":"active"}});
+					});
+
+		
+		//]]>
+	</script>
+	<!--[if IE 8]>
+		<style type="text/css">
+			/*
+				Workaround for IE8 textarea scroll bug, see
+
+				http://grantovich.net/posts/2009/06/that-weird-ie8-textarea-bug/
+
+				You also need to set an absolute height for the element. since this depends
+				on the location of the textarea, use an element style.
+			*/
+			textarea.ie8scrollfix { width: 300px !important; min-width: 98%; max-width: 98%;}
+			 .scrollableMenu td.topbar div#topContainer { position: relative; top: 0; } 		</style>
+	<![endif]-->
+</head><body id="ds_body" class=" scrollableMenu " dir="ltr">
+	
+
+	<div class="top_bar">
+		<div class="bg_left"> </div>
+		<div class="bg_right"> </div>
+	</div>
+	<div class="top_shadow"> </div>
+	<div class="top_background"> </div>
+    <div class="questlog_placeholder">&nbsp;</div>
+
+	<table id="main_layout" cellspacing="0">
+		<tr style="height: 48px;">
+			<td class="topbar left"></td>
+			<td class="topbar center">
+				<div id="topContainer">
+					<table id="topTable" style="text-align: center;" cellspacing="0">
+						<tr>
+							<td style="text-align: center;">
+								<table class="menu nowrap" style="white-space: nowrap; ">
+									<tr id="menu_row">
+										<td class="menu-side"></td>
+										<td class="menu-item"><a href="/game.php?village=70327&amp;screen=overview" >Przegl¹d</a></td>
+										<td class="menu-item tooltip-delayed" title="Mapa<br/> :: Skrót klawiaturowy: &lt;b&gt;m&lt;/b&gt;"><a href="/game.php?village=70327&amp;screen=map">Mapa</a></td>
+										<td class="menu-item">
+											<a href="/game.php?village=70327&amp;screen=report">
+												<span id="new_report" class="icon header new_report_faded"></span>
+												Raporty
+												<span id="menu_report_count" class="badge badge-report"></span>
+											</a>
+											<table cellspacing="0" class="menu_column"><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=all&amp;screen=report">Wszystkie<span class="badge badge-report"> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=attack&amp;screen=report">Atak<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=defense&amp;screen=report">Obrona<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=support&amp;screen=report">Wsparcie<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=trade&amp;screen=report">Handel<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=other&amp;screen=report">Inne<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=forwarded&amp;screen=report">Skierowane dalej<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=public&amp;screen=report">Opublikowane<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=filter&amp;screen=report">Filtr<span class="badge "> </span></a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></table>
+										</td>
+
+                                        <!-- mail -->
+                                                                                    <td class="menu-item">
+                                                <a href="/game.php?village=70327&amp;screen=mail">
+                                                    <span id="new_mail" class="icon header new_mail_faded"></span>
+                                                    Wiadomoœci
+                                                    <span id="menu_mail_count" class="badge badge-mail"></span>
+                                                </a>
+                                                <table cellspacing="0" class="menu_column"><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=in&amp;screen=mail">Wiadomoœci<span class="badge badge-mail"> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=mass_out&amp;screen=mail">Wiadomoœæ grupowa<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=new&amp;screen=mail">Napisz wiadomoœæ<span class="badge "> </span></a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></table>
+                                            </td>
+                                        
+																					<td>
+																									<a class="manager_icon" style="background-image:url('http://dspl.innogamescdn.com/8.34/26279/graphic/icons/farm_assistent.png')" href="/game.php?village=70327&amp;screen=am_farm" title="Asystent Farmera">&nbsp;</a>
+																																					<a class="manager_icon" style="background-image:url('http://dspl.innogamescdn.com/8.34/26279/graphic/icons/account_manager.png')" href="/game.php?village=70327&amp;screen=accountmanager" title="Mened¿er Konta">&nbsp;</a>
+																							</td>
+																				<td class="menu-item lpad"> </td>
+																				<td class="menu-item" id="topdisplay">
+											<div class="bg">
+												<a href="/game.php?village=70327&amp;screen=ranking">Ranking</a>
+												<div class="rank">(<span id="rank_rank">10<span class="grey">.</span>334</span>.|<span id="rank_points">757</span> P)</div>
+												<table cellspacing="0" class="menu_column"><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=ally&amp;screen=ranking">Plemiona<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=player&amp;screen=ranking">Gracze<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=dominance&amp;screen=ranking">Dominacja nad œwiatem<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=con_ally&amp;screen=ranking">Plemiona na kontynencie<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=con_player&amp;screen=ranking">Gracze na kontynencie<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=kill_ally&amp;screen=ranking">Pokonani przeciwnicy (plemiê)<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=kill_player&amp;screen=ranking">Pokonani przeciwnicy<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=awards&amp;screen=ranking">Odznaczenia<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=wars&amp;screen=ranking">Wojny<span class="badge "> </span></a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></table>
+											</div>
+										</td>
+																				<td class="menu-item rpad"> </td>
+
+                                        <!-- tribe -->
+                                                                                    <td class="menu-item">
+                                                <a href="/game.php?village=70327&amp;screen=ally">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                    Plemiê
+                                                    <span id="menu_counter_ally" class="badge badge-ally-forum">(21)</span>
+                                                </a>
+                                                                                                    <div class="buttonicon">
+                                                        <a href="/game.php?village=70327&amp;mode=forum&amp;screen=ally"  style="display:inline"><span id="tribe_forum_indicator" class="icon header new_post" title="Nowy komentarz w forum"></span></a>
+                                                    </div>
+                                                                                                <table cellspacing="0" class="menu_column"><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=overview&amp;screen=ally">Przegl¹d<span class="badge badge-ally-invite"> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=properties&amp;screen=ally">W³aœciwoœci<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=members&amp;screen=ally">Cz³onkowie<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=contracts&amp;screen=ally">Dyplomacja<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=tribalwars&amp;screen=ally">Wojny<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=reservations&amp;screen=ally">Planer podbojów<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=forum&amp;screen=ally">Forum<span class="badge badge-ally-forum-post"> (21)</span></a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></table>                                            </td>
+                                        
+										<td class="menu-item">
+											<a href="/game.php?village=70327&amp;screen=info_player">
+												Profil <span id="menu_counter_profile" class="badge"></span>
+											</a>
+											<table cellspacing="0" class="menu_column"><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;screen=info_player">janick67<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;screen=inventory">Inwentarz<span class="badge badge-inventory"> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=awards&amp;screen=info_player">Odznaczenia<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=stats_own&amp;screen=info_player">Statystyki<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;screen=buddies">Przyjaciele<span class="badge badge-buddy"> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=block&amp;screen=info_player">Czarna lista<span class="badge "> </span></a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></table>
+										</td>
+										<td class="menu-item">
+											<a href="/game.php?village=70327&amp;screen=premium">
+												<span class="coinbag coinbag-header"></span>&nbsp;<span id="premium_points">554</span>
+												<span id="premium_points_buy"></span>
+											</a>
+											<table cellspacing="0" class="menu_column"><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=use&amp;screen=premium">Subskrypcje<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=premium&amp;screen=premium">Kupno<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=transfer&amp;screen=premium">Przeniesienie<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=log&amp;screen=premium">Log punktów<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=feature_log&amp;screen=premium">Log funkcji<span class="badge "> </span></a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></table>
+										</td>
+										<td class="menu-item"><a href="/game.php?village=70327&amp;screen=settings">Ustawienia</a><table cellspacing="0" class="menu_column"><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=settings&amp;screen=settings">Opcje gry<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=account&amp;screen=settings">Konto<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=move&amp;screen=settings">Zacznij od nowa<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=share&amp;screen=settings">Dzielenie ³¹cza<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=vacation&amp;screen=settings">Zastêpstwo<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=logins&amp;screen=settings">Logowania<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=poll&amp;screen=settings">Ankiety<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=ref&amp;source=settings_menu&amp;screen=settings">Zaproœ graczy<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=push&amp;screen=settings">Push notifications<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=notify&amp;screen=settings">Powiadomienia e-mail<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=browser_notifications&amp;screen=settings">Powiadomienia w przegl¹darce<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=command_sharing&amp;screen=settings">Dzielenie siê komendami<span class="badge "> </span></a></td></tr><tr><td class="menu-column-item"><a href="/game.php?village=70327&amp;mode=ticket&amp;screen=settings" target="_blank">Pytanie do Supportu<span class="badge "> </span></a></td></tr><tr><td class="bottom"><div class="corner"></div><div class="decoration"></div></td></tr></table></td>
+										<td class="menu-side"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/loading.gif" id="loading_content" style="display: none" alt="" class="" /></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+
+                    				</div>
+			</td>
+			<td class="topbar right"> </td>
+
+		</tr>
+		<tr class="shadedBG">
+
+			<td class="bg_left" id="SkyScraperAdCellLeft">
+								<div class="bg_left"> </div>
+			</td>
+
+			<td class="maincell" style="width: 850px;">
+
+
+							<div style="position:fixed;">
+					<div id="questlog" class="questlog">
+					</div>
+				</div>
+			
+			
+			<br class="newStyleOnly" />
+	        
+			<hr class="oldStyleOnly" />
+
+			<table id="header_info" align="center" width="100%" cellspacing="0">
+				<colgroup>
+					<col width="1%" />
+					<col width="96%" />
+					<col width="1%" />
+					<col width="1%" />
+					<col width="1%" />
+				</colgroup>
+				<tr>
+					<td class="topAlign">
+						<table class="header-border">
+	                        <tr>
+	                            <td>
+									<table class="box menu nowrap">
+	                                    <tr id="menu_row2">
+																																																							<td style="white-space:nowrap;" id="menu_row2_village" class="firstcell box-item icon-box nowrap">
+												<a class="nowrap tooltip-delayed" title="Przegl¹d wioski<br/> :: Skrót klawiaturowy: &lt;b&gt;v&lt;/b&gt;" href="/game.php?village=70327&amp;screen=overview"><span class="icon header village"></span>janick67</a>
+											</td>
+																						<td class="box-item" style="padding-right: 6px"><b class="nowrap">(337|691) K63</b></td>
+												                                    </tr>
+	                                </table>
+	                            </td>
+	                        </tr>
+							<tr class="newStyleOnly">
+								<td class="shadow">
+									<div class="leftshadow"> </div>
+									<div class="rightshadow"> </div>
+								</td>
+							</tr>
+	                    </table>
+                	</td>
+
+				<td align="right" class="topAlign"> </td><!-- flexible gap -->
+
+				<td align="right" class="topAlign">
+				
+
+                
+                </td>
+                <td align="right" class="topAlign">
+					<table align="right" class="header-border menu_block_right">
+						<tr>
+							<td>
+								<table class="box smallPadding" cellspacing="0" style="empty-cells:show;">
+									<tr style="height: 20px;">
+										<td class="box-item icon-box firstcell">
+											<a href="/game.php?village=70327&amp;screen=wood" title="Drewno - 249 na godzinê"><span class="icon header wood"> </span></a>
+										</td>
+                                        <td class="box-item" style="position: relative">
+                                        	<span id="wood" title="Drewno - 249 na godzinê" class="res">1478</span>
+                                        </td>
+                                        <td class="box-item icon-box">
+                                        	<a href="/game.php?village=70327&amp;screen=stone" title="Glina - 249 na godzinê"><span class="icon header stone"> </span></a>
+                                        </td>
+                                        <td class="box-item">
+                                        	<span id="stone" title="Glina - 249 na godzinê" class="res">2612</span>
+                                        </td>
+                                        <td class="box-item icon-box">
+                                        	<a href="/game.php?village=70327&amp;screen=iron" title="¯elazo - 249 na godzinê"><span class="icon header iron" > </span></a>
+                                        </td>
+										<td class="box-item">
+											<span id="iron" title="¯elazo - 249 na godzinê" class="res">5431</span>
+										</td>
+                                        <td class="box-item icon-box">
+                                        	<a href="/game.php?village=70327&amp;screen=storage" title="Pojemnoœæ spichlerza"><span class="icon header ressources"> </span></a>
+                                        </td>
+                                        <td class="box-item">
+                                        	<span id="storage" title="Pojemnoœæ spichlerza">11932</span>
+                                        </td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr class="newStyleOnly">
+							<td class="shadow">
+								<div class="leftshadow"> </div>
+								<div class="rightshadow"> </div>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td align="right" class="topAlign">
+					<table class="header-border menu_block_right">
+						<tr>
+							<td>
+								<table class="box smallPadding" cellspacing="0">
+									<tr>
+										<td class="box-item icon-box firstcell"><a href="/game.php?village=70327&amp;screen=farm" title="Zagroda"><span class="icon header population"> </span></a></td>
+                                        <td class="box-item" align="center" style="margin:0;padding:0;" title="Zagroda">
+                                        	<span id="pop_current_label" class="warn">1613</span>/<span id="pop_max_label">1613</span>
+                                        </td>
+                                    </tr>
+								</table>
+							</td>
+						</tr>
+						<tr class="newStyleOnly">
+							<td class="shadow">
+								<div class="leftshadow"> </div>
+								<div class="rightshadow"> </div>
+							</td>
+						</tr>
+					</table>
+				</td>
+								<td align="right" class="topAlign">
+					<table class="header-border menu_block_right" style="border-collapse: collapse;">
+						<tr>
+							<td>
+								<table class="box" cellspacing="0">
+									<tr>
+																				<td class="box-item firstcell" style="white-space:nowrap;">
+                                            <a title="Flagi" href="/game.php?village=70327&amp;screen=flags" style="vertical-align:middle;">
+                                                <span class="icon header flags"></span>                                            </a>
+                                        </td>
+																														<td class="box-item icon-box"><a title="Rycerz" href="/game.php?mode=inventory&amp;village=70327&amp;screen=statue"><span class="icon header knight"></span></a></td>
+										                                                                                    <td class="box-item icon-box">
+                                                <a href="/game.php?village=70327&amp;screen=event_royalty" class="tooltip" title="Pomoc rodzinie królewskiej"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/events/royalty/event_icon.png" title="" alt="" class="menu-event-icon" /></a>
+                                            </td>
+                                        									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr class="newStyleOnly">
+							<td class="shadow">
+								<div class="leftshadow"> </div>
+								<div class="rightshadow"> </div>
+							</td>
+						</tr>
+					</table>
+								<td class="topAlign  " id="header_commands">
+					<table class="header-border menu_block_right">
+						<tr>
+							<td>
+								<table class="box smallPadding no-gap" cellspacing="0">
+									<tr>
+
+										<td id="incomings_cell" style="text-align: center; padding: 0 4px" class="box-item firstcell nowrap">
+																						<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/att.png" title="Nadchodz¹ce ataki" style="vertical-align: -2px" alt="" class="" />
+											<span id="incomings_amount">0</span>
+																					</td>
+
+										<td id="supports_cell" style="text-align: center; padding: 0 4px" class="box-item separate nowrap">
+											<a href="">
+												<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/command/support.png" title="Nadci¹gaj¹ce wsparcie" style="vertical-align: -2px" alt="" class="" />
+												<span id="supports_amount"></span>
+											</a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr class="newStyleOnly">
+							<td class="shadow">
+								<div class="leftshadow"> </div>
+								<div class="rightshadow"> </div>
+							</td>
+						</tr>
+					</table>
+				</td>
+
+			</tr>
+		</table>
+
+		
+		
+		
+		
+		<div id="script_warning" class="info_box" style="display: none;" >
+			Aktywowane skrypty mog¹ byæ niekompatybilne z obecn¹ wersj¹ gry.<br />
+			Je¿eli problemy bêd¹ ci¹gle wystêpowaæ, proszê wy³¹czyæ albo zaktualizowaæ skrypty.<br />
+			Jeœli problemy bêd¹ ci¹gle wystêpowaæ, proszê skontaktowaæ siê z autorem skryptu. <ul id="script_list"></ul>
+		</div>
+
+
+	    
+        
+	    
+		<!-- *********************** CONTENT BELOW ************************** -->
+		<table align="center" id="contentContainer" width="100%">
+	        <tr>
+	            <td>
+					<table class="content-border" width="100%" cellspacing="0">
+	                    <tr>
+	                        <td id="inner-border">
+								<table class="main" align="left">
+	                                <tr>
+										<td id="content_value">
+										
+										
+	                               		<h2>
+    Kontynent <span id="continent_id">63</span>
+
+            <div class="pa-hint-map height-placeholder"></div>
+        <div class="premium_account_hint pa-hint-map">
+            Aktywuj <a href="#" class="premium_direct_buy" data-feature="Premium">Konto Premium</a> aby widzieæ wiêksz¹ mapê.
+            <a style="margin-left:10px;" href="/game.php?village=70327&amp;mode=help&amp;feature=Premium&amp;screen=premium">&raquo; Powiedz mi wiêcej...</a>
+        </div>
+    </h2>
+
+<script type="text/javascript">
+//<![CDATA[
+
+	/** General purpose map script variables **/
+
+	TWMap.premium = false;
+	TWMap.mobile = false;
+	TWMap.morale = true;
+	TWMap.night = false;
+	TWMap.light = false;
+	//Needed to display day borders if user activated classic graphics
+	TWMap.classic_gfx = false;
+
+	TWMap.scrollBound = [0, 0, 999, 999];
+	TWMap.tileSize = [53, 38];
+
+	TWMap.screenKey = '8c6e49b0';
+	TWMap.topoKey = 2329676473;
+	TWMap.con.CON_COUNT = 10;
+	TWMap.con.SEC_COUNT = 20;
+	TWMap.con.SUB_COUNT = 5;
+
+	TWMap.image_base = 'http://dspl.innogamescdn.com/8.34/26279/graphic/';
+	TWMap.graphics = 'http://dspl.innogamescdn.com/8.34/26279/graphic//map/';
+
+			TWMap.currentVillage = 70327;
+		TWMap.cachePopupContents = true;
+
+    TWMap.minimap_cache_stamp = 55;
+
+
+	/** Context menu **/
+
+	TWMap.urls.ctx = {};
+	TWMap.urls.ctx.mp_overview = '/game.php?village=__village__&screen=overview';
+	TWMap.urls.ctx.mp_info = '/game.php?village=70327&id=__village__&screen=info_village';
+	TWMap.urls.ctx.mp_fav = '/game.php?village=70327&id=__village__&ajaxaction=add_target&h=8c6e49b0&json=1&screen=info_village';
+	TWMap.urls.ctx.mp_unfav = '/game.php?village=70327&id=__village__&ajaxaction=del_target&h=8c6e49b0&json=1&screen=info_village';
+	TWMap.urls.ctx.mp_lock = '/game.php?village=70327&id=__village__&ajaxaction=toggle_reserve_village&h=8c6e49b0&json=1&screen=info_village';
+	TWMap.urls.ctx.mp_res = '/game.php?village=70327&mode=send&target=__village__&screen=market';
+	TWMap.urls.ctx.mp_att = '/game.php?village=70327&target=__village__&screen=place';
+	TWMap.urls.ctx.mp_recruit = '/game.php?village=__village__&screen=train';
+	TWMap.urls.ctx.mp_profile = '/game.php?village=70327&id=__owner__&screen=info_player';
+	TWMap.urls.ctx.mp_msg = '/game.php?village=70327&mode=new&player=__owner__&screen=mail';
+	TWMap.urls.ctx.mp_unlock = TWMap.urls.ctx.mp_lock;
+	TWMap.urls.ctx.mp_invite = '/game.php?village=70327&mode=ref&source=map&screen=settings';
+	TWMap.urls.ctx.mp_invite_hide = '/game.php?village=70327&ajaxaction=map_hide_invitation&h=8c6e49b0&json=1&screen=settings';
+
+							TWMap.urls.ctx.mp_farm_a = '/game.php?village=70327&mode=farm&ajaxaction=farm&h=8c6e49b0&template_id=27764&target=__village__&source=__source__&json=1&screen=am_farm';
+				TWMap.urls.ctx.mp_farm_b = '/game.php?village=70327&mode=farm&ajaxaction=farm&h=8c6e49b0&template_id=28355&target=__village__&source=__source__&json=1&screen=am_farm';
+			
+		TWMap.ghost = false;
+	
+	TWMap.context.enabled = true;
+	
+	TWMap.centerList.enabled = false;
+
+	/** Other URLs **/
+
+	TWMap.urls.villageInfo = '/game.php?village=70327&id=__village__&screen=info_village';
+	TWMap.urls.villagePopup = '/game.php?village=__village__&ajax=map_info&source=70327&screen=overview';
+	TWMap.urls.sizeSave = '/game.php?village=70327&ajaxaction=set_map_size&h=8c6e49b0&screen=settings';
+	TWMap.urls.changeShowBelief = '/game.php?village=70327&ajaxaction=change_topo_show_belief&h=8c6e49b0&screen=settings';
+	TWMap.urls.changeShowPolitical = '/game.php?village=70327&ajaxaction=change_topo_show_political&h=8c6e49b0&screen=settings';
+	TWMap.urls.changeUseContext = '/game.php?village=70327&ajaxaction=change_use_contextmenu&h=8c6e49b0&screen=settings';
+	TWMap.urls.savePopup = '';
+	TWMap.urls.centerCoords = '/game.php?village=70327&mode=centerlist&screen=map';
+	TWMap.urls.centerSave = '/game.php?village=70327&mode=centerlist&ajaxaction=save_center&h=8c6e49b0&screen=map';
+
+	/** Attacked villages **/
+	
+	/** Village colors **/
+
+			TWMap.colors['this'] = [255, 255, 255];
+			TWMap.colors['player'] = [240, 200, 0];
+			TWMap.colors['friend'] = [69, 255, 146];
+			TWMap.colors['ally'] = [0, 0, 244];
+			TWMap.colors['partner'] = [0, 160, 244];
+			TWMap.colors['nap'] = [128, 0, 128];
+			TWMap.colors['enemy'] = [244, 0, 0];
+			TWMap.colors['other'] = [130, 60, 10];
+			TWMap.colors['sleep'] = [0, 0, 0];
+			TWMap.colors['grey'] = [150, 150, 150];
+			TWMap.colors['highlight_village'] = [255, 0, 255];
+			TWMap.colors['highlight_player'] = [239, 165, 239];
+	
+	TWMap.secrets = {
+		};
+
+	TWMap.inline_send.enabled = 1;
+
+	TWMap.ignore_villages = [];
+
+	TWMap.attackable_players = null;
+
+	/** Some sector fun **/
+	TWMap.sectorPrefech = [{"x":320,"y":680,"tiles":[[38,0,1,2,1,33,0,3,29,28,41,47,34,0,1,0,1,3,3,1],[1,2,2,0,1,44,34,2,1,40,46,39,3,1,0,2,32,3,3,2],[0,30,31,2,2,2,0,0,0,1,2,37,2,0,1,1,1,0,1,2],[2,29,28,1,0,2,3,3,3,0,3,37,1,2,2,0,32,3,41,35],[2,3,2,32,3,0,1,0,0,0,2,36,3,1,32,1,0,2,45,38],[2,32,1,2,2,3,1,2,0,3,2,0,32,2,3,40,42,42,38,1],[2,3,2,1,0,3,2,3,2,3,2,0,0,2,3,0,0,1,0,33],[33,1,3,1,48,2,1,0,0,32,0,33,0,0,1,1,2,0,1,44],[44,42,42,35,3,2,1,3,2,3,3,45,43,34,30,31,2,1,2,2],[0,1,2,36,48,1,40,43,34,0,3,44,38,3,29,28,1,0,0,0],[3,2,1,2,2,32,3,36,3,3,3,2,2,3,40,34,0,2,3,1],[1,3,3,0,0,2,2,1,1,3,2,1,1,3,2,3,0,3,2,0],[0,3,1,0,2,2,0,1,2,0,2,48,1,32,3,2,1,2,0,32],[0,1,0,3,2,3,1,2,0,2,3,3,2,1,2,1,0,2,0,3],[40,42,34,3,1,0,3,1,2,33,1,1,1,1,2,2,2,3,1,3],[2,0,2,3,1,2,2,1,0,36,3,30,31,1,3,1,3,33,0,1],[33,1,40,42,42,42,34,1,3,3,0,29,28,0,0,3,0,44,42,34],[36,0,0,3,1,1,1,1,2,2,32,2,2,40,34,3,1,1,0,3],[0,0,3,0,0,0,3,0,1,3,0,3,2,0,3,3,1,2,3,0],[32,2,0,0,2,0,1,3,30,31,40,34,2,33,1,1,2,2,33,3]],"data":{"x":320,"y":680,"villages":[{"1":["74737",5,"WKS1","38","7277468","100",null,"0"],"2":["74200",16,"Osada koczownik\u00f3w","91","0","100",["100% wi\u0119ksza produkcja drewna","bonus\/wood.png"],"0"],"4":["75418",5,"...","145","6152290","100",null,"0"],"6":["70247",16,"Osada koczownik\u00f3w","72","0","100",["50% szybsza produkcja w warsztacie","bonus\/garage.png"],"0"],"13":["78189",5,"Wioska Rescruses","26","7783195","100",null,"0"],"15":["78483",5,"zajebana","42","698974221","100",null,"0"],"16":["75549",16,"Osada koczownik\u00f3w","55","0","100",["50% szybsza produkcja w warsztacie","bonus\/garage.png"],"0"],"17":["76551",5,"Wioska Yarkus","26","698675626","100",null,"0"],"18":["75644",4,0,"98","0","100",null,"0"]},{"1":["67997",16,"Osada koczownik\u00f3w","101","0","100",["30% wi\u0119ksza produkcja surowc\u00f3w (wszystkie surowce)","bonus\/all.png"],"0"],"2":["70748",7,"==Czersk 01==","470","698724462","100",null,"0"],"3":["73488",5,"Wioska Staguaks","26","698966304","100",null,"0"],"4":["69579",7,"001 Titan","378","9271057","100",null,"0"],"8":["75377",5,"Wioska miloszduzyokazs","26","698972570","100",null,"0"],"12":["74259",5,"Wioska Go\u015b\u0107971985s","26","698971985","100",null,"0"],"13":["75825",5,"ENIGMA","64","698972795","100",null,"0"],"17":["75701",5,"Wioska Maczetaas","26","7754472","100",null,"0"],"18":["75709",5,"Wioska Go\u015b\u0107972731s","38","698972731","100",null,"0"],"19":["77356",4,0,"53","0","100",null,"0"]},{"0":["67653",5,"Sparta","126","698358268","100",null,"0"],"4":["68928",7,"moras1987s","479","290001","100",null,"0"],"5":["75245",5,"Wioska Lord niebijs","26","698234192","100",null,"0"],"8":["74805",4,0,"70","0","100",null,"0"],"10":["72456",5,"Wioska VAKKERs","26","7280960","100",null,"0"],"14":["74207",5,"Wioska kubusolas","26","1540709","100",null,"0"],"17":["77628",5,"Wioska kurakidwas","26","8085981","100",null,"0"],"19":["74509",5,"Wioska WscieklyPudels","26","698971554","100",null,"0"]},{"0":["68057",4,0,"111","0","100",null,"0"],"3":["67388",5,"Wioska Thor216s","26","698968246","100",null,"0"],"5":["67614",7,"yllls","312","698968381","100",null,"0"],"7":["74766",5,"Wioska sylwia2004s","26","698972230","100",null,"0"],"12":["71805",4,0,"71","0","100",null,"0"],"14":["75812",5,"Wioska czeslaw .s","38","8862297","100",null,"0"],"17":["73189",5,"Callen","195","698827594","100",null,"0"]},{"2":["71749",5,"Wioska Leydy Nikollas","38","698970616","100",null,"0"],"4":["73474",7,"K 2","349","6001174","100",null,"0"],"7":["70633",4,0,"64","0","100",null,"0"],"10":["70579",5,"Wioska zirytowanymichals","26","698699742","100",null,"0"],"17":["74383",7,"...And Justice For All","616","698268175","100",null,"0"]},{"2":["66076",5,"Wioska wiktaas","38","698967422","100",null,"0"],"3":["68022",4,0,"54","0","100",null,"0"],"4":["67559",7,"Wioska grzybu94s","588","9220744","100",null,"0"],"5":["70142",7,"\u015alichowice","367","698969732","100",null,"0"],"7":["70505",5,"jump","123","698964865","100",null,"0"],"14":["71516",4,0,"57","0","100",null,"0"]},{"1":["65507",7,"Tr\u0119kusek","594","3643123","100",null,"0"],"4":["68843",5,"Wioska Sekspantera69s","26","698963349","100",null,"0"],"5":["69131",16,"Osada koczownik\u00f3w","74","0","100",["50% wi\u0119ksza pojemno\u015b\u0107 spichlerza i handlarzy","bonus\/storage.png"],"0"],"6":["70703",5,"Wiocha ar301","166","6042610","100",null,"0"],"7":["67636",4,0,"94","0","100",null,"0"],"10":["73555",5,"Wioska reasonlols","269","6535228","100",null,"0"],"11":["70284",5,"Polak=1=","179","698744157","100",null,"0"],"12":["70214",5,"Wioska Go\u015b\u0107969771s","26","698969771","100",null,"0"],"13":["71866",5,"Ogolona1","107","698362752","100",null,"0"],"14":["71996",16,"Osada koczownik\u00f3w","81","0","100",["10% wi\u0119cej ludno\u015bci","bonus\/farm.png"],"0"],"15":["77821",4,0,"42","0","100",null,"0"]},{"1":["70506",16,"Osada koczownik\u00f3w","127","0","100",["100% wi\u0119ksza produkcja gliny","bonus\/stone.png"],"0"],"2":["71956",16,"Osada koczownik\u00f3w","52","0","100",["33% szybsze szkolenie w koszarach ","bonus\/barracks.png"],"0"],"3":["69875",5,"Wioska Go\u015b\u0107969576s","26","698969576","100",null,"0"],"5":["71875",4,0,"108","0","100",null,"0"],"12":["69819",7,"Wioska Sir","381","698969547","100",null,"0"],"13":["69789",5,"Wioska Go\u015b\u0107969526s","26","698969526","100",null,"0"]},{"7":["73112",7,"Wioska sir mynias","339","698302048","100",null,"0"],"8":["71751",5,"Kush Town XD","33","698970619","100",null,"0"],"18":["72894",5,"Wioska Tacenss","215","698909200","100",null,"0"]},{"13":["71278",4,0,"56","0","100",null,"0"],"17":["77504",5,"Wioska kamil9kuls","54","7488500","100",null,"0"]},{"6":["68417",4,0,"82","0","100",null,"0"],"8":["71170",5,"Wioska Lady Lord matrixs","90","698949996","100",null,"0"],"13":["74419",5,"Wioska nocy15s","26","698972067","100",null,"0"]},{"0":["68234",7,"Cintra","447","698713570","100",null,"0"],"1":["64060",4,0,"26","0","100",null,"0"],"2":["66217",5,"Wioska SwagMans","26","698639174","100",null,"0"],"6":["71489",5,"Wioska bakax7s","26","698888914","100",null,"0"],"7":["69161",5,"Wioska wieczny potempionys","33","698969189","100",null,"0"],"8":["66841",7,"001.","630","8655960","100",null,"0"],"11":["74081",5,"Centrum IMPERIUM","147","698971886","100",null,"0"],"13":["75359",5,"Wioska wccserwiss","26","698972559","100",null,"0"],"14":["72914",5,"Wioska zarobeks","26","698971281","100",null,"0"],"16":["69944",5,"Wioska moco46s","31","552678","100",null,"0"],"18":["74548",5,"Rivendell","91","698972127","100",null,"0"]},{"7":["69629",4,0,"85","0","100",null,"0"],"9":["68132",4,0,"110","0","100",null,"0"],"14":["70017",5,"VaRRiatkowo","102","698969663","100",null,"0"],"15":["69032",16,"Osada koczownik\u00f3w","96","0","100",["33% szybsze szkolenie w stajni","bonus\/stable.png"],"0"],"16":["75963",5,"Wioska FlorisVs","26","698972854","100",null,"0"],"17":["69950",4,0,"68","0","100",null,"0"],"18":["78512",5,"Wioska BubaSpaliCiWioches","89","698974243","100",null,"0"]},{"2":["66226",4,0,"105","0","100",null,"0"],"5":["66469",4,0,"108","0","100",null,"0"],"7":["70629",4,0,"62","0","100",null,"0"],"8":["66178",5,"0001","101","8451722","100",null,"0"],"11":["66293",7,"001 Mordor","366","698664858","100",null,"0"],"15":["69781",5,"Wioska kozyra","38","698969521","100",null,"0"],"17":["71097",5,"Wioska Jaanroths","26","698970255","100",null,"0"],"18":["76236",5,"Wioska AdamBullsPLs","26","698972985","100",null,"0"]},{"3":["66203",5,"Pablo1979","73","698967505","100",null,"0"],"6":["65625",5,"Wioska kerrmits","230","698556661","100",null,"0"],"10":["70059",5,"Wioska durza22s","26","698969685","100",null,"0"],"15":["68483",4,0,"73","0","100",null,"0"],"16":["69857",9,"Podziemna Twierdza Dzikiego Gonu","1.035","698969565","100",null,"0"],"18":["75105",5,"LAJT 1","236","698972404","100",null,"0"],"19":["71318",5,"Wioska Lord wicios","26","698192499","100",null,"0"]},{"1":["62401",4,0,"66","0","100",null,"0"],"2":["65760",5,"Wioska TomOos","26","698967257","100",null,"0"],"4":["64182",4,0,"152","0","100",null,"0"],"5":["68933",5,"Wioska Jakub852852s","26","698969065","100",null,"0"],"7":["66068",5,"Wioska 22.14s","26","8317468","100",null,"0"],"10":["67420",5,"Mrok \u015bredniowiecza","272","698968267","100",null,"0"],"16":["74892",5,"Wioska An0nims","38","698972309","100",null,"0"],"18":["69761",5,"Trap City","252","698940904","100",null,"0"]},{"1":["63230",4,0,"118","0","100",null,"0"],"7":["66461",5,"Wioska snajper23452345s","26","7697393","100",null,"0"],"8":["66765",7,"Ku\u015bka","338","9227840","100",null,"0"],"13":["78477",5,"Wioska Lord Jesie\u0144","90","698974223","100",null,"0"],"14":["73120",5,"Wioska Go\u015b\u0107971391","83","698971391","100",null,"0"],"16":["67449",16,"Osada koczownik\u00f3w","75","0","100",["100% wi\u0119ksza produkcja gliny","bonus\/stone.png"],"0"]},{"1":["63054",4,0,"40","0","100",null,"0"],"2":["67148",5,"#Slupca#","195","698333539","100",null,"0"],"3":["64536",5,"Wioska Lovelas99s","26","8840998","100",null,"0"],"6":["66069",5,"Wioska kazikxpompas","52","698967419","100",null,"0"],"9":["69674",7,"Bridgestone","451","2683100","100",null,"0"],"11":["70327",7,"janick67","757","2685372","100",null,"0"]},{"2":["62389",4,0,"103","0","100",null,"0"],"5":["69038",16,"Osada koczownik\u00f3w","68","0","100",["10% wi\u0119cej ludno\u015bci","bonus\/farm.png"],"0"],"7":["66031",7,"Erslavorn","397","698967401","100",null,"0"],"8":["63602",4,0,"26","0","100",null,"0"],"9":["68337",5,"Wioska KOXFREEs","26","698719005","100",null,"0"],"11":["69940",5,"Wioska Agata110621","70","698969630","100",null,"0"],"13":["69370",5,"ziom12000","115","9074150","100",null,"0"],"14":["67589",7,"Erebor","645","6661152","100",null,"0"],"15":["72332",4,0,"66","0","100",null,"0"],"16":["74296",5,"Wioska Go\u015b\u0107972001s","40","698972001","100",null,"0"],"18":["68031",5,"Wioska Lord Sanders","45","698280933","100",null,"0"],"19":["68665",5,"jes jes","212","698838966","100",null,"0"]},{"1":["61281",4,0,"48","0","100",null,"0"],"3":["62589",4,0,"41","0","100",null,"0"],"14":["72773",5,"Wioska Sirius00s","38","698971217","100",null,"0"],"16":["70286",5,"Demokratyczna republika konga","196","698969802","100",null,"0"],"19":["71494",5,"Wioska pakul12s","26","698693834","100",null,"0"]}],"players":{"18244":["komar75","188","1767","dnia 13.06. o 08:14",false,"0","1 wioska"],"211430":["baca1992","100","0","dnia 09.06. o 13:28",false,"0","1 wioska"],"290001":["moras1987","479","4816",0,false,"0","1 wioska"],"321272":["Yoh Master","294","0","dnia 09.06. o 20:27",false,"0","1 wioska"],"552678":["moco46","31","0",0,false,"0","1 wioska"],"850200":["Oczkowy","513","4816",0,false,"0","1 wioska"],"943156":["Jabolo24","260","0",0,false,"0","1 wioska"],"1293929":["wojtek1278","207","0","jutro o 12:09",false,"0","1 wioska"],"1371721":["Gh0stRider","26","0","dzisiaj o 22:19",false,"0","1 wioska"],"1540709":["kubusola","26","0","jutro o 20:03",false,"0","1 wioska"],"1597950":["12jakub12","26","0","jutro o 15:15",false,"0","1 wioska"],"1623023":["cherry666","967","4816",0,false,"0","1 wioska"],"1696200":["Don CoJoNes","56","0","jutro o 23:26",false,"0","1 wioska"],"2542646":["warwarrior1","38","0",0,false,"0","1 wioska"],"2683100":["czesiek-wojtek1","451","4816",0,false,"0","1 wioska"],"2685372":["janick67","757","4816",0,false,"0","1 wioska"],"2717161":["smerf007","137","1386","dnia 11.06. o 14:14",false,"0","1 wioska"],"2865677":["Metuzalem","442","4816",0,false,"0","1 wioska"],"3088306":["JacekTa","115","0","jutro o 16:26",false,"0","1 wioska"],"3643123":["cyki852","594","4816",0,false,"0","1 wioska"],"3749884":["Meciu96","40","0",0,false,"0","1 wioska"],"3887589":["MunDraw","38","0","dnia 14.06. o 12:04",false,"0","1 wioska"],"3890202":["pawcioc1","26","0",0,false,"0","1 wioska"],"6001174":["Mietusek22","349","0","jutro o 07:56",false,"0","1 wioska"],"6042610":["ar301","166","6405",0,false,"0","1 wioska"],"6152290":["\u017co\u0142nierz hardcoru","145","0","dnia 09.06. o 23:10",false,"0","1 wioska"],"6312533":["kabatttt","26","0","jutro o 19:53",false,"0","1 wioska"],"6439739":["dawidtbg51","112","0","dnia 14.06. o 00:16",false,"0","1 wioska"],"6461442":["Maruda347","26","0","dnia 09.06. o 12:02",false,"0","1 wioska"],"6535228":["reasonlol","269","0","jutro o 09:49",false,"0","1 wioska"],"6661152":["dymeksmok1","645","4816",0,false,"0","1 wioska"],"6680901":["grigors34","373","0",0,false,"0","1 wioska"],"6709798":["security82","125","0",0,false,"0","1 wioska"],"6726732":["arigato1","65","6783","dnia 09.06. o 19:05",false,"0","1 wioska"],"6937736":["AMozeBezNicku?","433","5408",0,false,"0","1 wioska"],"7024128":["Tomekkkkkk","200","6427","dnia 10.06. o 00:52",false,"0","1 wioska"],"7099969":["dawidkalix","26","0",0,false,"0","1 wioska"],"7277468":["pawelceltic","38","0","dnia 09.06. o 12:11",false,"0","1 wioska"],"7280960":["VAKKER","26","0",0,false,"0","1 wioska"],"7287597":["leszczu22","160","5408","dnia 11.06. o 19:03",false,"0","1 wioska"],"7297432":["Highland","249","6880","dnia 10.06. o 20:10",false,"0","1 wioska"],"7309931":["wilczek119","474","0",0,false,"0","1 wioska"],"7350495":["Dymlo","168","0","dnia 09.06. o 15:16",false,"0","1 wioska"],"7401376":["mazonej123","307","6562","jutro o 14:30",false,"0","1 wioska"],"7488500":["kamil9kul","54","0","dnia 11.06. o 20:01",false,"0","1 wioska"],"7497424":["rafaello 69","268","0","dnia 09.06. o 18:08",false,"0","1 wioska"],"7505894":["majero123","68","0",0,false,"0","1 wioska"],"7514254":["danielosd1","26","0",0,false,"0","1 wioska"],"7633809":["grzegorz135","401","6987","dzisiaj o 15:54",false,"0","1 wioska"],"7646152":["Kierownik44","309","6880",0,false,"0","1 wioska"],"7697393":["snajper23452345","26","0",0,false,"0","1 wioska"],"7708419":["jacek2499","187","5408","dnia 12.06. o 21:09",false,"0","1 wioska"],"7708885":["Cadacross","617","4816",0,false,"0","1 wioska"],"7754472":["Maczetaa","26","0","dnia 10.06. o 11:24",false,"0","1 wioska"],"7783195":["Rescruse","26","0","dnia 12.06. o 13:26",false,"0","1 wioska"],"8085981":["kurakidwa","26","0","dnia 11.06. o 21:30",false,"0","1 wioska"],"8091419":["LucaSylius","161","719",0,false,"0","1 wioska"],"8191064":["ItsOnlyMe2","377","0",0,false,"0","1 wioska"],"8253376":["TylkoLolek","43","0",0,false,"0","1 wioska"],"8317468":["22.14","26","0",0,false,"0","1 wioska"],"8373557":["XDrobik4","112","0",0,false,"0","1 wioska"],"8451722":["artur5422","101","0",0,false,"0","1 wioska"],"8527217":["kubabern249","26","0","dnia 10.06. o 19:18",false,"0","1 wioska"],"8580678":["rradziu1","576","0",0,false,"0","1 wioska"],"8655960":["fiuuu","630","4816",0,false,"0","1 wioska"],"8744082":["King LordD","38","0",0,false,"0","1 wioska"],"8752582":["MichiKun","26","0","dnia 12.06. o 12:15",false,"0","1 wioska"],"8794572":["Zbychu321","26","0","dnia 12.06. o 23:15",false,"0","1 wioska"],"8804706":["mr.msycha908","56","0",0,false,"0","1 wioska"],"8832480":["vanirhistoryk","235","509",0,false,"0","1 wioska"],"8834044":["zaqwsx11","778","0",0,false,"0","1 wioska"],"8840998":["Lovelas99","26","0",0,false,"0","1 wioska"],"8843209":["DziembaPL","134","0","dnia 12.06. o 12:01",false,"0","1 wioska"],"8862297":["czeslaw .","38","0","dnia 10.06. o 13:50",false,"0","1 wioska"],"8914259":["emanis","26","0",0,false,"0","1 wioska"],"8968400":["\u0141ukaszv220","213","1998","dnia 09.06. o 22:38",false,"0","1 wioska"],"9014896":["wroninho","575","4816",0,false,"0","1 wioska"],"9060838":["hamiaczek","106","176",0,false,"0","1 wioska"],"9074150":["ziom12000","115","0",0,false,"0","1 wioska"],"9083241":["Asdex1","26","0",0,false,"0","1 wioska"],"9095968":["ozimcc","26","0",0,false,"0","1 wioska"],"9220744":["grzybu94","588","4816",0,false,"0","1 wioska"],"9221606":["chaner998","26","0","jutro o 08:38",false,"0","1 wioska"],"9227840":["K.Kotarski","338","6987",0,false,"0","1 wioska"],"9256268":["Sir Niepokonany2","26","0",0,false,"0","1 wioska"],"9271057":["BLaCKpL21","378","6803",0,false,"0","1 wioska"],"9276068":["wev.","291","0",0,false,"0","1 wioska"],"9314164":["Cz4j4","66","0",0,false,"0","1 wioska"],"9324311":["Sir loowca","233","0","dnia 11.06. o 04:39",false,"0","1 wioska"],"698192499":["Lord wicio","26","0",0,false,"0","1 wioska"],"698211201":["Mati1328","174","6562",0,false,"0","1 wioska"],"698234192":["Lord niebij","26","0","dnia 09.06. o 20:32",false,"0","1 wioska"],"698268175":["Tikerio","616","4816","jutro o 22:19",false,"0","1 wioska"],"698278888":["blazejj12","101","0","dnia 09.06. o 19:38",false,"0","1 wioska"],"698280933":["Lord Sander","45","0",0,false,"0","1 wioska"],"698302048":["sir mynia","339","4816","dzisiaj o 19:42",false,"0","1 wioska"],"698304471":["adam.kozlowski87","118","0",0,false,"0","1 wioska"],"698333539":["goores","195","0",0,false,"0","1 wioska"],"698343610":["RastaManPL12","165","5408","dnia 10.06. o 17:36",false,"0","1 wioska"],"698358268":["kret457","126","0",0,false,"0","1 wioska"],"698362752":["OgolonaNoga","107","0",0,false,"0","1 wioska"],"698378700":["Navis","152","0",0,false,"0","1 wioska"],"698392118":["CHMIELnicki od lektur","306","0",0,false,"0","1 wioska"],"698442949":["Korwinista","875","4970",0,false,"0","1 wioska"],"698476657":["CrushR","351","6880",0,false,"0","1 wioska"],"698487501":["tomahawa","760","4816",0,false,"0","1 wioska"],"698556661":["kerrmit","230","0",0,false,"0","1 wioska"],"698569362":["ziomek11q","38","0",0,false,"0","1 wioska"],"698595955":["Miper","26","0","dnia 13.06. o 10:48",false,"0","1 wioska"],"698596398":["Sub Zero","26","0",0,false,"0","1 wioska"],"698609216":["JedrekWar","26","0",0,false,"0","1 wioska"],"698636314":["no1special","26","0","jutro o 21:41",false,"0","1 wioska"],"698639174":["SwagMan","26","0",0,false,"0","1 wioska"],"698639971":["Jaroszchetnie","38","0",0,false,"0","1 wioska"],"698663791":["MlodyEEM","61","0","dnia 12.06. o 13:11",false,"0","1 wioska"],"698664858":["Szkielet233","366","719",0,false,"0","1 wioska"],"698667464":["tatkohard","828","6880",0,false,"0","1 wioska"],"698675626":["Yarku","26","0","dnia 11.06. o 04:02",false,"72876","1 wioska"],"698678564":["Reiven","115","0","dnia 12.06. o 14:22",false,"0","1 wioska"],"698679383":["Kamillo112","130","0","dnia 11.06. o 12:21",false,"0","1 wioska"],"698693834":["pakul12","26","0",0,false,"0","1 wioska"],"698699742":["zirytowanymichal","26","0",0,false,"0","1 wioska"],"698711086":["dziodzikson","138","6562",0,false,"0","1 wioska"],"698713570":["jkkz39","447","4816",0,false,"0","1 wioska"],"698719005":["KOXFREE","26","0",0,false,"0","1 wioska"],"698720714":["Z\u0142y Vipek","26","0",0,false,"0","1 wioska"],"698724462":["arg564a","470","6803",0,false,"0","1 wioska"],"698727159":["Norbi\u015b","194","0","dnia 10.06. o 19:50",false,"0","1 wioska"],"698736542":["GoldmanTV","351","6562",0,false,"0","1 wioska"],"698744157":["Polskomen","179","6405",0,false,"0","1 wioska"],"698760351":["bolrek123","347","6880",0,false,"0","1 wioska"],"698763992":["mastah5314","26","0","dnia 12.06. o 11:53",false,"0","1 wioska"],"698764582":["Inferno11","722","4816",0,false,"0","1 wioska"],"698765075":["Lady janko123","192","0","dnia 10.06. o 21:35",false,"0","1 wioska"],"698772996":["Velhaco","149","5408","dnia 10.06. o 09:25",false,"0","1 wioska"],"698776830":["Mefistoteles","374","0",0,false,"0","1 wioska"],"698780310":["C9 Xerath God aka TeCe","95","0",0,false,"0","1 wioska"],"698782956":["Pluum","297","0",0,false,"0","1 wioska"],"698827594":["Pepik10","195","0","dzisiaj o 20:55",false,"0","1 wioska"],"698838966":["cannabis.out","212","222",0,false,"0","1 wioska"],"698839540":["Lord Jaczkob 543","38","0","jutro o 10:32",false,"0","1 wioska"],"698843015":["Marrek","518","0",0,false,"0","1 wioska"],"698857233":["darko1","74","719","dnia 13.06. o 13:58",false,"0","1 wioska"],"698869320":["Ser JemSer","26","0","dnia 13.06. o 11:53",false,"0","1 wioska"],"698870946":["Dzidar","256","0",0,false,"0","1 wioska"],"698871181":["Antylopa i Lew","26","0","dnia 11.06. o 00:25",false,"0","1 wioska"],"698881205":["Sosobert","98","0","dnia 09.06. o 21:06",false,"0","1 wioska"],"698882167":["arturios1","136","0","dnia 13.06. o 18:45",false,"0","1 wioska"],"698887101":["Wielki Wezyr Pasza","38","0",0,false,"0","1 wioska"],"698888296":["Axeel","197","6562","dnia 09.06. o 01:20",false,"0","1 wioska"],"698888914":["bakax7","26","0",0,false,"0","1 wioska"],"698888973":["seren785","26","0",0,false,"0","1 wioska"],"698891731":["Adik145","138","719","dnia 12.06. o 10:08",false,"0","1 wioska"],"698898475":["gagaLady","137","5408","dnia 09.06. o 12:06",false,"0","1 wioska"],"698900045":["AstroKozak","1.027","6740",0,false,"0","1 wioska"],"698909200":["Tacens","215","0","dzisiaj o 16:30",false,"0","1 wioska"],"698911773":["trollmeen","26","0",0,false,"0","1 wioska"],"698913823":["Hexolord","454","1998",0,false,"0","1 wioska"],"698915120":["ImBack","26","0",0,false,"0","1 wioska"],"698915517":["micha\u0142x","26","0",0,false,"0","1 wioska"],"698917940":["ZePu","238","5408","dnia 09.06. o 20:26",false,"0","1 wioska"],"698921364":["Beto","26","0","dnia 14.06. o 12:53",false,"0","1 wioska"],"698937984":["rzeznik21","831","4970",0,false,"0","1 wioska"],"698939501":["wymiatacz12","237","5909",0,false,"0","1 wioska"],"698940904":["fleciu","252","0",0,false,"0","1 wioska"],"698941135":["szymorning09","364","6880",0,false,"0","1 wioska"],"698947535":["rudy3","523","5909",0,false,"0","1 wioska"],"698949690":["144424","26","0",0,false,"0","1 wioska"],"698949996":["Lady Lord matrix","90","4017",0,false,"0","1 wioska"],"698951664":["Tandzik","77","0","dnia 13.06. o 17:11",false,"0","1 wioska"],"698951912":["Gorzki smak","179","5745",0,false,"0","1 wioska"],"698952827":["ukolo123","26","0",0,false,"0","1 wioska"],"698953580":["polak1606","86","0","dnia 10.06. o 12:00",false,"0","1 wioska"],"698954013":["konxxer","589","3379",0,false,"0","1 wioska"],"698956424":["TimoKrul","123","4491","dnia 13.06. o 20:22",false,"0","1 wioska"],"698956893":["Onomatopeia","286","2739","dnia 09.06. o 23:26",false,"0","1 wioska"],"698960769":["Kamil52494","121","0",0,false,"0","1 wioska"],"698962023":["kirdann","560","4816",0,false,"0","1 wioska"],"698963349":["Sekspantera69","26","0",0,false,"0","1 wioska"],"698963410":["Qwowadis","608","4970",0,false,"0","1 wioska"],"698963489":["supejson","861","5909",0,false,"0","1 wioska"],"698963562":["davcie","673","4816",0,false,"0","1 wioska"],"698963655":["LefriSs","855","4970",0,false,"0","1 wioska"],"698963716":["zden","195","0",0,false,"0","1 wioska"],"698963730":["Yoshimitsu96","827","719",0,false,"0","1 wioska"],"698963917":["koorcok","1.765","4970",0,false,"0","1 wioska"],"698964070":["Moric","418","4816",0,false,"0","1 wioska"],"698964073":["MarcinM666","491","4816",0,false,"0","1 wioska"],"698964413":["patrykweri23","768","0",0,false,"0","1 wioska"],"698964464":["Sir Golob","1.618","4970",0,false,"0","1 wioska"],"698964508":["killer2014","178","0",0,false,"0","1 wioska"],"698964865":["monika98","123","6712",0,false,"0","1 wioska"],"698964909":["Neuro","597","4970",0,false,"0","1 wioska"],"698964921":["RudyZbyszek","266","0",0,false,"0","1 wioska"],"698964941":["Frediferr","199","0",0,false,"0","1 wioska"],"698965132":["mlody321","517","6803",0,false,"0","1 wioska"],"698965241":["Tr0ll3r","208","0",0,false,"0","1 wioska"],"698965312":["Bundziol","666","4816",0,false,"0","1 wioska"],"698965381":["derek97","166","0",0,false,"0","1 wioska"],"698965402":["Go\u015b\u0107965402","74","719",0,false,"0","1 wioska"],"698965597":["Reaper1","510","6740",0,false,"0","1 wioska"],"698965776":["Lord Ryuku","78","5408",0,false,"0","1 wioska"],"698965935":["Grumbor99","171","0",0,false,"0","1 wioska"],"698965957":["Sir Lord Angel Of Death","455","6803",0,false,"0","1 wioska"],"698966036":["mortus5","156","0",0,false,"0","1 wioska"],"698966072":["matwin","541","6803",0,false,"0","1 wioska"],"698966192":["Go\u015b\u0107966192","26","0",0,false,"0","1 wioska"],"698966304":["Staguak","26","0","jutro o 08:22",false,"0","1 wioska"],"698966604":["jarek1234r","26","0",0,false,"0","1 wioska"],"698966773":["Go\u015b\u0107966773","26","0",0,false,"0","1 wioska"],"698966847":["ewwwwe","28","0",0,false,"0","1 wioska"],"698967162":["...RASTA...","26","0",0,false,"0","1 wioska"],"698967235":["Cabriolet","155","0",0,false,"0","1 wioska"],"698967257":["TomOo","26","0",0,false,"0","1 wioska"],"698967315":["Robert200045","52","0",0,false,"0","1 wioska"],"698967333":["Pedro82","365","0",0,false,"0","1 wioska"],"698967355":["Sir Hydry","26","0",0,false,"0","1 wioska"],"698967401":["Mattheus","397","6321",0,false,"0","1 wioska"],"698967419":["kazikxpompa","52","0",0,false,"0","1 wioska"],"698967422":["wiktaa","38","0",0,false,"0","1 wioska"],"698967433":["klentak","40","0",0,false,"0","1 wioska"],"698967446":["Lady Sir luki","144","0",0,false,"0","1 wioska"],"698967505":["Go\u015b\u0107967505","73","0",0,false,"0","1 wioska"],"698967579":["kubalm","52","0",0,false,"0","1 wioska"],"698967674":["Go\u015b\u0107967674","30","0",0,false,"0","1 wioska"],"698967707":["KubusPL114","38","0",0,false,"0","1 wioska"],"698967750":["Go\u015b\u0107967750","26","0",0,false,"0","1 wioska"],"698967777":["majkel391","142","0",0,false,"0","1 wioska"],"698967901":["theuser123","26","0",0,false,"0","1 wioska"],"698967940":["Padamaru","275","0",0,false,"0","1 wioska"],"698967983":["wisniaziom1","393","4816",0,false,"0","1 wioska"],"698968033":["Go\u015b\u0107968033","26","0",0,false,"0","1 wioska"],"698968179":["DrewnoKalina","26","0",0,false,"0","1 wioska"],"698968200":["Ivette9669","26","0",0,false,"0","1 wioska"],"698968215":["Adamus29123","386","0",0,false,"0","1 wioska"],"698968246":["Thor216","26","0",0,false,"0","1 wioska"],"698968267":["DON ALIBABA","272","0",0,false,"0","1 wioska"],"698968381":["ylll","312","4816",0,false,"0","1 wioska"],"698968437":["mietek245","26","0",0,false,"0","1 wioska"],"698968485":["rinki","56","0",0,false,"0","1 wioska"],"698968496":["dajzetennick","427","0",0,false,"0","1 wioska"],"698968514":["Go\u015b\u0107968514","99","0",0,false,"0","1 wioska"],"698968594":["Go\u015b\u0107968594","26","0",0,false,"0","1 wioska"],"698968648":["Go\u015b\u0107968648","28","0",0,false,"0","1 wioska"],"698968687":["Siubka","186","0",0,false,"0","1 wioska"],"698968740":["Yrben","26","0",0,false,"0","1 wioska"],"698968845":["NexHero","26","0",0,false,"0","1 wioska"],"698968905":["zenon2409","26","0",0,false,"0","1 wioska"],"698969031":["Roch07","58","0",0,false,"0","1 wioska"],"698969065":["Jakub852852","26","0",0,false,"0","1 wioska"],"698969068":["psyoalex","26","0",0,false,"0","1 wioska"],"698969075":["dawid dawid","433","719",0,false,"0","1 wioska"],"698969123":["Go\u015b\u0107969123","26","0",0,false,"0","1 wioska"],"698969189":["wieczny potempiony","33","0",0,false,"0","1 wioska"],"698969271":["robcio20","67","5408",0,false,"0","1 wioska"],"698969317":["zizu1594","540","4816",0,false,"0","1 wioska"],"698969369":["chelminn","382","0",0,false,"0","1 wioska"],"698969431":["Jestem Bogiem Tej Gry","320","6987",0,false,"0","1 wioska"],"698969469":["wargasromowa","379","1998",0,false,"0","1 wioska"],"698969507":["popiol","52","0",0,false,"0","1 wioska"],"698969521":["kozyr666","38","0",0,false,"0","1 wioska"],"698969526":["Go\u015b\u0107969526","26","0",0,false,"0","1 wioska"],"698969547":["Sir Sir miki1","381","6796",0,false,"0","1 wioska"],"698969565":["Kr\u00f3l Dzikiego Gonu","1.035","4816",0,false,"0","1 wioska"],"698969576":["Go\u015b\u0107969576","26","0",0,false,"0","1 wioska"],"698969602":["XszymoxitX","311","0",0,false,"0","1 wioska"],"698969630":["Agata110621","70","0",0,false,"0","1 wioska"],"698969663":["Varisch1523","102","0",0,false,"0","1 wioska"],"698969664":["Gangreena","308","0",0,false,"0","1 wioska"],"698969685":["durza22","26","0",0,false,"0","1 wioska"],"698969698":["kubkomistrz","26","0",0,false,"0","1 wioska"],"698969714":["Misza18","26","0",0,false,"0","1 wioska"],"698969732":["MrMatetek","367","4816",0,false,"0","1 wioska"],"698969743":["Lord Aleksander Wielki","385","0",0,false,"0","1 wioska"],"698969771":["Go\u015b\u0107969771","26","0",0,false,"0","1 wioska"],"698969802":["czarny W-R","196","0",0,false,"0","1 wioska"],"698969833":["Rafal051990","26","0",0,false,"0","1 wioska"],"698969913":["mloda565","26","0",0,false,"0","1 wioska"],"698969932":["KR\u00d3L SZYMON 1 WIELKI","26","0",0,false,"0","1 wioska"],"698969936":["gangalbania","254","0",0,false,"0","1 wioska"],"698970081":["kubsoneq57","394","4816",0,false,"0","1 wioska"],"698970228":["hakerbaker12","67","6681",0,false,"0","1 wioska"],"698970255":["Jaanroth","26","0",0,false,"0","1 wioska"],"698970327":["pablotriceps1337","62","0",0,false,"0","1 wioska"],"698970429":["Go\u015b\u0107970429","55","0",0,false,"0","1 wioska"],"698970473":["Michal Skiperr","38","0",0,false,"0","1 wioska"],"698970477":["kacper12.2004","234","6496",0,false,"0","1 wioska"],"698970616":["Leydy Nikolla","38","0",0,false,"0","1 wioska"],"698970619":["PasiuEZ","33","0",0,false,"0","1 wioska"],"698970664":["danielfanisca","26","0",0,false,"0","1 wioska"],"698970724":["Busjio","32","0",0,false,"0","1 wioska"],"698970726":["Go\u015b\u0107970726","26","0",0,false,"0","1 wioska"],"698970736":["Szymon 546","38","0",0,false,"0","1 wioska"],"698970767":["lapetit","26","0",0,false,"0","1 wioska"],"698970780":["Saveq","26","0",0,false,"0","1 wioska"],"698970795":["Celtic Warrior","113","0",0,false,"0","1 wioska"],"698970818":["Lord Cacek","106","6562",0,false,"0","1 wioska"],"698970852":["hida","200","0",0,false,"0","1 wioska"],"698970894":["Galaxy98","64","0",0,false,"0","1 wioska"],"698970952":["Go\u015b\u0107970952","26","0",0,false,"0","1 wioska"],"698970990":["Go\u015b\u0107970990","26","0",0,false,"0","1 wioska"],"698971067":["Mahone","91","0",0,false,"0","1 wioska"],"698971110":["Go\u015b\u0107971110","26","0",0,false,"0","1 wioska"],"698971182":["manatu","74","0",0,false,"0","1 wioska"],"698971195":["Go\u015b\u0107971195","33","0",0,false,"0","1 wioska"],"698971217":["Sirius00","38","0",0,false,"0","1 wioska"],"698971281":["zarobek","26","0","dzisiaj o 16:48",false,"0","1 wioska"],"698971391":["Go\u015b\u0107971391","83","5408","dzisiaj o 19:52",false,"0","1 wioska"],"698971466":["boj\u00f3wka77","396","6562","dzisiaj o 21:48",false,"0","1 wioska"],"698971501":["klaudynq","30","0","dzisiaj o 22:32",false,"0","1 wioska"],"698971535":["Leto98","182","0","dzisiaj o 23:44",false,"0","1 wioska"],"698971554":["WscieklyPudel","26","0","dnia 09.06. o 03:24",false,"0","1 wioska"],"698971573":["Maajid","72","0","jutro o 08:13",false,"0","1 wioska"],"698971591":["Go\u015b\u0107971591","122","0","jutro o 09:21",false,"0","1 wioska"],"698971688":["LiseeeKx17","236","1998","jutro o 13:18",false,"0","1 wioska"],"698971694":["kapitanputk","298","1998","jutro o 13:27",false,"0","1 wioska"],"698971822":["PapaBiceps","257","6562","jutro o 16:55",false,"0","1 wioska"],"698971886":["LordJane","147","6712","jutro o 18:16",false,"78385","1 wioska"],"698971909":["Mathev18","26","0","dnia 09.06. o 22:38",false,"0","1 wioska"],"698971960":["Go\u015b\u0107971960","38","5408","jutro o 20:08",false,"0","1 wioska"],"698971963":["Arecky","46","0","jutro o 20:19",false,"0","1 wioska"],"698971981":["kylo lylo","88","0","jutro o 20:35",false,"0","1 wioska"],"698971984":["adek2211","51","0","jutro o 20:36",false,"0","1 wioska"],"698971985":["Go\u015b\u0107971985","26","0","jutro o 20:36",false,"0","1 wioska"],"698972001":["Go\u015b\u0107972001","40","0","jutro o 21:00",false,"0","1 wioska"],"698972007":["kajPl123","65","5408","jutro o 21:11",false,"0","1 wioska"],"698972067":["nocy15","26","0","jutro o 22:49",false,"0","1 wioska"],"698972110":["Szymorex","59","0","dnia 09.06. o 02:44",false,"0","1 wioska"],"698972127":["Go\u015b\u0107972127","91","0","dnia 09.06. o 07:28",false,"0","1 wioska"],"698972177":["jacekchyla","108","0","dnia 09.06. o 10:01",false,"0","1 wioska"],"698972209":["Filon Jr","48","0","dnia 09.06. o 11:44",false,"0","1 wioska"],"698972230":["sylwia2004","26","0","dnia 09.06. o 13:04",false,"0","1 wioska"],"698972252":["PanKacper","56","0","dnia 09.06. o 13:37",false,"0","1 wioska"],"698972309":["An0nim","38","0","dnia 09.06. o 15:14",false,"0","1 wioska"],"698972328":["karixxx","26","0","dnia 09.06. o 15:54",false,"0","1 wioska"],"698972404":["cruizer","236","6562","dnia 09.06. o 18:23",false,"0","1 wioska"],"698972406":["Koszynu","52","0","dnia 09.06. o 18:13",false,"0","1 wioska"],"698972491":["NWCTW","277","0","dnia 09.06. o 20:31",false,"0","1 wioska"],"698972531":["Tom Dwan","231","0","dnia 09.06. o 21:29",false,"0","1 wioska"],"698972559":["wccserwis","26","0","dnia 09.06. o 22:23",false,"0","1 wioska"],"698972570":["miloszduzyokaz","26","0","dnia 09.06. o 22:41",false,"0","1 wioska"],"698972579":["HIPERAX","38","0","dnia 09.06. o 22:54",false,"0","1 wioska"],"698972637":["bidekk122","98","0","dnia 10.06. o 07:14",false,"0","1 wioska"],"698972731":["Go\u015b\u0107972731","38","0","dnia 10.06. o 11:40",false,"0","1 wioska"],"698972795":["fifoox","64","0","dnia 10.06. o 14:07",false,"0","1 wioska"],"698972854":["FlorisV","26","0","dnia 10.06. o 16:03",false,"0","1 wioska"],"698972922":["FaustXVI","103","0","dnia 10.06. o 18:15",false,"0","1 wioska"],"698972979":["hubert0896","26","0","dnia 10.06. o 20:15",false,"0","1 wioska"],"698972985":["AdamBullsPL","26","0","dnia 10.06. o 20:22",false,"0","1 wioska"],"698973001":["kajstura005","42","0","dnia 10.06. o 20:43",false,"0","1 wioska"],"698973049":["pawlus16","203","5408","dnia 10.06. o 21:56",false,"0","1 wioska"],"698973126":["kielbaska666","38","0","dnia 10.06. o 23:50",false,"0","1 wioska"],"698973155":["hgsghsgh","26","0","dnia 11.06. o 00:55",false,"0","1 wioska"],"698973194":["Chuddy","75","0","dnia 11.06. o 07:56",false,"0","1 wioska"],"698973267":["fierstone","26","0","dnia 11.06. o 10:38",false,"0","1 wioska"],"698973300":["Delikates","162","6912","dnia 11.06. o 11:22",false,"0","1 wioska"],"698973303":["Kinder42","183","0","dnia 11.06. o 11:28",false,"0","1 wioska"],"698973321":["Sampek","100","0","dnia 11.06. o 11:53",false,"0","1 wioska"],"698973357":["Sampi","105","0","dnia 11.06. o 12:27",false,"0","1 wioska"],"698973503":["smieliczek","262","0","dnia 11.06. o 15:33",false,"0","1 wioska"],"698973723":["Go\u015b\u0107973723","26","0","dnia 11.06. o 21:04",false,"0","1 wioska"],"698973844":["sir sir lukasz12","164","5408","dnia 11.06. o 23:46",false,"0","1 wioska"],"698973888":["SmAsH231","38","0","dnia 12.06. o 07:47",false,"0","1 wioska"],"698974153":["Go\u015b\u0107974153","26","0","dnia 12.06. o 16:22",false,"0","1 wioska"],"698974187":["Lord Lady patrycja","32","0","dnia 12.06. o 17:18",false,"0","1 wioska"],"698974188":["Lord mario121200","42","719","dnia 12.06. o 17:24",false,"0","1 wioska"],"698974221":["luka111","42","0","dnia 12.06. o 18:39",false,"0","1 wioska"],"698974223":["Lord Jesie\u0144","90","0","dnia 12.06. o 18:35",false,"0","1 wioska"],"698974243":["BubaSpaliCiWioche","89","0","dnia 12.06. o 19:03",false,"0","1 wioska"],"698974252":["Madame Kiepa","26","0","dnia 12.06. o 19:18",false,"0","1 wioska"],"698974300":["Kielav","26","0","dnia 12.06. o 20:55",false,"0","1 wioska"],"698974339":["Rybski11","99","0","dnia 12.06. o 21:56",false,"0","1 wioska"],"698974395":["wojtekz","26","0","dnia 12.06. o 23:43",false,"0","1 wioska"],"698974428":["White Mike","127","0","dnia 13.06. o 02:22",false,"0","1 wioska"],"698974477":["sillu","40","0","dnia 13.06. o 09:18",false,"0","1 wioska"],"698974509":["Go\u015b\u0107974509","36","0","dnia 13.06. o 10:30",false,"0","1 wioska"],"698974649":["lukaszsz1","136","0","dnia 13.06. o 15:01",false,"0","1 wioska"],"698974707":["kaczorex007","26","0","dnia 13.06. o 16:53",false,"0","1 wioska"],"698974719":["Sir krix","38","0","dnia 13.06. o 17:16",false,"0","1 wioska"],"698974873":["aghsasidkhasjd","26","0","dnia 13.06. o 21:06",false,"0","1 wioska"],"698975084":["Ameliia","55","0","dnia 14.06. o 10:37",false,"0","1 wioska"],"698975117":["kubi0207","78","0","dnia 14.06. o 11:22",false,"0","1 wioska"],"698975168":["Go\u015b\u0107975168","26","0","dnia 14.06. o 12:21",false,"0","1 wioska"],"698975177":["x305","106","7179","dnia 14.06. o 12:31",false,"0","1 wioska"]},"allies":{"176":["Zniszczy\u0107 \u0141PK","8.540","Z\u0141PK","0"],"222":["Trinitis","888","TS","0"],"509":["*Zjednoczone Kr\u00f3lestwo*","39.863","TheOne","0"],"719":["Wbijaj","30.003","WJ","0"],"1386":["Wymiana flag","29.901","FLAGI","0"],"1767":["kalisie","188","kal","0"],"1998":["*BLOOD*","18.221","*BLOOD","0"],"2739":["Akademia Cenzury","36.260","-18","0"],"3379":["NIEZNANI.","23.592","|N-N|.","0"],"4017":["Wojownicy Upad\u0142ych","234","WU","0"],"4491":["Podopieczni Rolanda","283","#PDR","0"],"4816":["Spejsonowcy","27.724","SPC","74262"],"4970":["Reactors","47.102","RS","73474"],"5408":["M\u0141OTY","8.639","MOT","0"],"5745":["Piranha","179","PRH","0"],"5909":["JOT.PE ARMIA","52.604","JOT.PE","0"],"6321":["Trojanie","3.529","TJE","0"],"6405":["NinjaForPigamas","345","NFP","0"],"6427":["DreamTeam","13.209","DmT","79644"],"6496":["Rome","11.038","Rome","0"],"6562":["TeamBiceps","3.687","BiC","77905"],"6681":["ygbhnumji","67","yhjuki","0"],"6712":["WojskoPolskie","270","GROM","78359"],"6740":["Kumple","1.537","Kumple","0"],"6783":["The Black Parade","65","TBP","0"],"6796":["Handluj z Nami!","4.723","HzN!","0"],"6803":["~Odrodzeni~","38.042","RB","78823"],"6880":["TIGER","3.944","TG","0"],"6912":["Burlesque","162","BSE","0"],"6987":["Terytorium","1.449","TER","0"],"7179":["ituuu","106","ituuu","0"]}}},{"x":340,"y":680,"tiles":[[3,33,3,1,2,0,3,3,29,28,0,3,1,37,2,0,1,0,44,35],[2,36,3,3,48,32,3,1,3,1,2,1,41,39,2,1,1,3,1,36],[1,1,0,0,1,3,1,2,0,2,1,1,44,38,2,0,2,2,2,0],[1,0,3,2,32,3,3,3,1,3,3,1,2,1,32,3,1,40,35,0],[1,0,3,3,1,0,0,3,33,3,0,0,3,3,0,0,0,0,36,2],[0,2,1,0,1,30,31,40,46,35,3,3,2,3,2,32,0,1,1,3],[3,40,34,3,2,29,28,0,0,36,3,1,0,3,3,3,2,0,0,1],[3,2,1,3,0,3,2,1,3,1,3,2,0,2,2,1,0,1,1,1],[48,41,35,3,0,0,2,2,1,2,1,2,0,3,1,2,2,3,2,0],[2,45,46,34,1,3,3,0,0,48,2,33,2,32,3,1,3,0,0,1],[2,37,0,2,1,2,1,2,3,3,1,36,3,0,0,2,1,0,2,40],[3,44,34,3,0,0,1,3,2,2,1,1,3,48,3,1,1,0,1,2],[2,0,3,3,1,3,33,2,0,0,3,40,42,34,2,2,0,0,0,2],[2,0,0,2,3,40,39,3,0,0,0,0,3,0,1,2,2,1,0,0],[0,2,3,2,3,1,36,0,2,2,32,1,1,2,3,40,43,43,35,0],[0,3,3,0,0,2,1,33,3,0,3,3,48,2,0,0,44,46,38,1],[0,3,2,1,2,2,40,38,2,2,40,42,42,34,0,3,0,3,0,0],[1,3,40,34,1,1,1,2,0,32,3,2,1,0,1,1,1,3,3,1],[3,3,3,3,3,1,0,1,32,0,3,1,2,1,33,0,0,1,1,3],[2,32,0,3,40,43,43,34,1,0,0,2,3,3,44,42,34,0,40,35]],"data":{"x":340,"y":680,"villages":[{"7":["66844",5,"Wioska theuser123s","26","698967901","100",null,"0"],"12":["66850",16,"Osada koczownik\u00f3w","88","0","100",["50% szybsza produkcja w warsztacie","bonus\/garage.png"],"0"],"15":["70018",7,"ZakazWstepu","308","698969664","100",null,"0"],"17":["67469",5,"Wioska warwarrior1s","38","2542646","100",null,"0"]},{"0":["60916",16,"Osada koczownik\u00f3w","183","0","100",["33% szybsze szkolenie w stajni","bonus\/stable.png"],"0"],"2":["60458",4,0,"67","0","100",null,"0"],"6":["68212",5,"Wioska Sub Zeros","26","698596398","100",null,"0"],"8":["62556",7,"jak","760","698487501","100",null,"0"],"11":["66100",4,0,"199","0","100",null,"0"],"17":["67328",7,"Ada\u015a","386","698968215","100",null,"0"],"18":["70348",5,"Wioska Rafal051990s","26","698969833","100",null,"0"]},{"1":["59300",4,0,"83","0","100",null,"0"],"5":["64192",4,0,"27","0","100",null,"0"],"6":["64799",4,0,"98","0","100",null,"0"],"10":["63994",5,"Legionowo","256","698870946","100",null,"0"],"14":["69604",7,"#1 Bronzowe My\u015bli","320","698969431","100",null,"0"],"15":["66975",7,"green","393","698967983","100",null,"0"],"17":["65903",7,"Kowalewo City","365","698967333","100",null,"0"]},{"1":["62054",4,0,"40","0","100",null,"0"],"3":["59541",7,"Wioska TeamFive","827","698963730","100",null,"0"],"8":["67719",5,"Wioska mietek245s","26","698968437","100",null,"0"],"10":["65349",7,"Marreks","518","698843015","100",null,"0"],"11":["69911",7,"Flotsam","311","698969602","100",null,"0"],"15":["68293",5,"Wioska Yrbens","26","698968740","100",null,"0"]},{"0":["63624",7,"AMozeBezNicku?","433","6937736","100",null,"0"],"4":["61408",4,0,"46","0","100",null,"0"],"5":["60859",4,0,"54","0","100",null,"0"],"7":["62530",4,0,"157","0","100",null,"0"],"11":["69324",5,"Wioska robcio20s","67","698969271","100",null,"0"],"14":["76802",5,"Sparta","183","698973303","100",null,"0"],"15":["70536",5,"ALBANIA POPKA","254","698969936","100",null,"0"],"17":["69760",5,"Wioska popiols","52","698969507","100",null,"0"]},{"0":["63898",5,"Wioska Go\u015b\u0107966192s","26","698966192","100",null,"0"],"2":["58498",5,"Wioska micha\u0142xs","26","698915517","100",null,"0"],"4":["70820",7,"Rze\u017ania","394","698970081","100",null,"0"],"10":["61983",4,0,"142","0","100",null,"0"],"13":["68021",5,"I chuk!!! :C","106","9060838","100",null,"0"],"14":["63733",7,"Wioska wilczek119s","474","7309931","100",null,"0"]},{"8":["61668",5,"CR7","199","698964941","100",null,"0"],"10":["62857",6,0,"355","0","100",null,"0"],"11":["65435",5,"TylkoLoleks","43","8253376","100",null,"0"],"12":["67052",5,"Wioska Go\u015b\u0107968033s","26","698968033","100",null,"0"],"13":["63100",5,"Wioska","125","6709798","100",null,"0"],"14":["64540",4,0,"130","0","100",null,"0"],"16":["65719",5,"Wioska Cabriolets","155","698967235","100",null,"0"]},{"0":["57469",4,0,"176","0","100",null,"0"],"1":["62036",4,0,"166","0","100",null,"0"],"4":["63599",5,"panningen","156","698966036","100",null,"0"],"6":["60813",16,"Osada koczownik\u00f3w","127","0","100",["50% wi\u0119ksza pojemno\u015b\u0107 spichlerza i handlarzy","bonus\/storage.png"],"0"],"8":["60693",5,"Xerath","95","698780310","100",null,"0"],"10":["63135",5,"Wioska Lord Ryukus","78","698965776","100",null,"0"],"11":["62188",5,"Wioska Tr0ll3r","208","698965241","100",null,"0"],"12":["66174",5,"Wioska JedrekWars","26","698609216","100",null,"0"],"13":["69180",4,0,"74","0","100",null,"0"],"14":["68949",7,"boski dawid","433","698969075","100",null,"0"],"18":["75280",5,"Teren youtubera.","98","698881205","100",null,"0"],"19":["68668",7,"001","722","698764582","100",null,"0"]},{"3":["62456",5,"Obligions","166","698965381","100",null,"0"],"6":["60687",7,"Otorowo","768","698964413","100",null,"0"],"11":["65986",4,0,"75","0","100",null,"0"],"16":["69542",5,"Torun","179","698951912","100",null,"0"],"17":["67412",5,"Wioska Naviss","152","698378700","100",null,"0"],"19":["69139",7,"Przemy\u015bl","575","9014896","100",null,"0"]},{"0":["59705",7,"Wioska ItsOnlyMe2s","377","8191064","100",null,"0"],"5":["62520",7,"Podatki Dochodowe","875","698442949","100",null,"0"],"7":["61634",5,"Wioska RudyZ","266","698964921","100",null,"0"],"12":["62495",5,"Wioska Go\u015b\u0107965402s","74","698965402","100",null,"0"],"16":["67315",5,"Wioska Ivette9669s","26","698968200","100",null,"0"],"17":["65055",5,"Wioska ewwwwes","28","698966847","100",null,"0"]},{"0":["59087",7,"Plantacja Koki","861","698963489","100",null,"0"],"2":["59393",16,"Osada koczownik\u00f3w","162","0","100",["33% szybsze szkolenie w stajni","bonus\/stable.png"],"0"],"4":["59838",9,"koorcoks","1.765","698963917","100",null,"0"],"6":["59529",4,0,"58","0","100",null,"0"],"8":["64651",5,"Wioska jarek1234rs","26","698966604","100",null,"0"],"9":["60381",4,0,"149","0","100",null,"0"],"17":["69427",16,"Osada koczownik\u00f3w","106","0","100",["50% wi\u0119ksza pojemno\u015b\u0107 spichlerza i handlarzy","bonus\/storage.png"],"0"],"18":["64945",5,"Wioska Go\u015b\u0107966773s","26","698966773","100",null,"0"]},{"0":["57213",7,"glad","539","698594851","100",null,"0"],"5":["58086",5,"Wioska gawell von larenbergs","26","935578","100",null,"0"],"7":["63824",5,"Wioska nr 1 | K63","240","9094862","100",null,"0"],"9":["59419",5,"Wioska Go\u015b\u0107963659s","38","698963659","100",null,"0"],"10":["64138",4,0,"74","0","100",null,"0"],"11":["60638",4,0,"72","0","100",null,"0"],"14":["67149",4,0,"135","0","100",null,"0"],"17":["68553",7,"Pyke","485","698968883","100",null,"0"]},{"0":["58969",16,"Osada koczownik\u00f3w","123","0","100",["10% wi\u0119cej ludno\u015bci","bonus\/farm.png"],"0"],"2":["56654",7,"W\u0119\u017cowyRaj","930","698853386","100",null,"0"],"7":["63691",4,0,"40","0","100",null,"0"],"9":["65037",5,"Wiocha","38","698966837","100",null,"0"],"14":["63177",4,0,"105","0","100",null,"0"],"16":["64097",4,0,"33","0","100",null,"0"]},{"1":["57936",4,0,"107","0","100",null,"0"],"2":["61448",4,0,"88","0","100",null,"0"],"3":["59012",4,0,"57","0","100",null,"0"],"4":["59047",7,"Camp Nou","967","698963460","100",null,"0"],"7":["65573",4,0,"265","0","100",null,"0"],"9":["59044",7,"Wioska czarny ninwgards","401","7940820","100",null,"0"],"11":["64934",5,"Wioska terminator32159s","102","8915687","100",null,"0"],"12":["63133",5,"Wioska artur i dziadeks","49","698965734","100",null,"0"],"14":["64429",4,0,"101","0","100",null,"0"],"15":["79005",5,"Wioska supehsons","26","698963481","100",null,"0"],"19":["67433",16,"Osada koczownik\u00f3w","113","0","100",["100% wi\u0119ksza produkcja drewna","bonus\/wood.png"],"0"]},{"1":["61075",5,"krzyk720","275","698851063","100",null,"0"],"4":["59633",4,0,"66","0","100",null,"0"],"7":["59538",5,"Stare \u017babno","99","698666675","100",null,"0"],"8":["59434",4,0,"149","0","100",null,"0"],"12":["62823",5,"Wioska darek412s","181","698267560","100",null,"0"],"19":["69941",7,"Szymhemowo","359","698969608","100",null,"0"]},{"0":["56166",4,0,"180","0","100",null,"0"],"1":["55438",4,0,"160","0","100",null,"0"],"2":["60238",6,0,"396","0","100",null,"0"],"3":["59321",4,0,"163","0","100",null,"0"],"5":["56940",7,"Albania","746","8493865","100",null,"0"],"9":["64086",9,"siemka","1.044","698429154","100",null,"0"],"13":["66251",5,"Wioska Lord Graczu\u015bs","38","698967547","100",null,"0"],"14":["64326",5,"Cesarstwo Ksarii","201","698419023","100",null,"0"]},{"2":["60596",16,"Osada koczownik\u00f3w","103","0","100",["100% wi\u0119ksza produkcja gliny","bonus\/stone.png"],"0"],"5":["60644",16,"Osada koczownik\u00f3w","103","0","100",["33% szybsze szkolenie w koszarach ","bonus\/barracks.png"],"0"]},{"1":["59737",4,0,"49","0","100",null,"0"],"4":["60105",4,0,"56","0","100",null,"0"],"6":["57267",4,0,"53","0","100",null,"0"],"12":["62668",4,0,"156","0","100",null,"0"],"14":["61553",4,0,"82","0","100",null,"0"],"15":["65638",5,"Wioska magicznymefjaszs","38","698967169","100",null,"0"],"18":["67526",5,"Wioska daro13s","38","698968313","100",null,"0"],"19":["64513",5,"Wioska dk694455s","56","698966533","100",null,"0"]},{"0":["55605",16,"Osada koczownik\u00f3w","203","0","100",["33% szybsze szkolenie w koszarach ","bonus\/barracks.png"],"0"],"1":["54125",16,"Osada koczownik\u00f3w","220","0","100",["50% szybsza produkcja w warsztacie","bonus\/garage.png"],"0"],"2":["57195",4,0,"55","0","100",null,"0"],"3":["56317",4,0,"64","0","100",null,"0"],"5":["55675",7,"Wioska Lord tomek666ss","778","9182723","100",null,"0"],"12":["63375",4,0,"26","0","100",null,"0"],"17":["63655",4,0,"60","0","100",null,"0"],"19":["64508",5,"Wioska Go\u015b\u0107966529s","26","698966529","100",null,"0"]},{"3":["58254",9,"Kreuzburg","1.509","698962980","100",null,"0"],"10":["59078",5,"UTVDR Zentrum","26","698963483","100",null,"0"],"13":["61241",5,"Lwie serce","128","698964718","100",null,"0"]}],"players":{"18244":["komar75","188","1767","dnia 13.06. o 08:14",false,"0","1 wioska"],"283734":["Shadow24","2.019","5044",0,false,"0","1 wioska"],"552678":["moco46","31","0",0,false,"0","1 wioska"],"850200":["Oczkowy","513","4816",0,false,"0","1 wioska"],"868323":["lukasz1401","250","0",0,false,"0","1 wioska"],"935578":["gawell von larenberg","26","0",0,false,"0","1 wioska"],"943156":["Jabolo24","260","0",0,false,"0","1 wioska"],"960200":["CzarnyDaro","1.001","5044",0,false,"0","1 wioska"],"1168486":["Gregor 78","904","0",0,false,"0","1 wioska"],"1293929":["wojtek1278","207","0","jutro o 12:09",false,"0","1 wioska"],"1371721":["Gh0stRider","26","0","dzisiaj o 22:19",false,"0","1 wioska"],"1514009":["S-p-y","568","0",0,false,"0","1 wioska"],"1588884":["heniu311","382","5044",0,false,"0","1 wioska"],"1597943":["Harold32","345","0",0,false,"0","1 wioska"],"1623023":["cherry666","967","4816",0,false,"0","1 wioska"],"1696200":["Don CoJoNes","56","0","jutro o 23:26",false,"0","1 wioska"],"1860730":["oliwka155","442","4816",0,false,"0","1 wioska"],"2117986":["Glok8","383","5044",0,false,"0","1 wioska"],"2254407":["pawel 74","26","0",0,false,"0","1 wioska"],"2542646":["warwarrior1","38","0",0,false,"0","1 wioska"],"2683100":["czesiek-wojtek1","451","4816",0,false,"0","1 wioska"],"2685372":["janick67","757","4816",0,false,"0","1 wioska"],"2865677":["Metuzalem","442","4816",0,false,"0","1 wioska"],"2976068":["Szuubi","1.148","4970",0,false,"77769","1 wioska"],"3390012":["Lereas","54","0",0,false,"0","1 wioska"],"3546263":["tauempire","406","5044",0,false,"0","1 wioska"],"3884785":["Vacosss","26","0",0,false,"0","1 wioska"],"3890202":["pawcioc1","26","0",0,false,"0","1 wioska"],"3933172":["diabelski lowca","186","6562",0,false,"0","1 wioska"],"6461442":["Maruda347","26","0","dnia 09.06. o 12:02",false,"0","1 wioska"],"6661152":["dymeksmok1","645","4816",0,false,"0","1 wioska"],"6680901":["grigors34","373","0",0,false,"0","1 wioska"],"6709798":["security82","125","0",0,false,"0","1 wioska"],"6937736":["AMozeBezNicku?","433","5408",0,false,"0","1 wioska"],"7080171":["hit27","264","0","dnia 10.06. o 21:56",false,"0","1 wioska"],"7099969":["dawidkalix","26","0",0,false,"0","1 wioska"],"7309931":["wilczek119","474","0",0,false,"0","1 wioska"],"7350495":["Dymlo","168","0","dnia 09.06. o 15:16",false,"0","1 wioska"],"7401376":["mazonej123","307","6562","jutro o 14:30",false,"0","1 wioska"],"7407813":["rybson106","1.050","0",0,false,"0","1 wioska"],"7511651":["krzychu3188","117","0",0,false,"0","1 wioska"],"7612171":["ILoveGanja","690","4816",0,false,"0","1 wioska"],"7633809":["grzegorz135","401","6987","dzisiaj o 15:54",false,"0","1 wioska"],"7636135":["Marianusz74","1.261","0",0,false,"0","1 wioska"],"7697393":["snajper23452345","26","0",0,false,"0","1 wioska"],"7708885":["Cadacross","617","4816",0,false,"0","1 wioska"],"7746930":["Nasuda7","44","0",0,false,"0","1 wioska"],"7940820":["czarny ninwgard","401","0",0,false,"0","1 wioska"],"7957690":["DgL?","5.412","2718",0,false,"0","3 wioski"],"8091419":["LucaSylius","161","719",0,false,"0","1 wioska"],"8191064":["ItsOnlyMe2","377","0",0,false,"0","1 wioska"],"8253376":["TylkoLolek","43","0",0,false,"0","1 wioska"],"8317468":["22.14","26","0",0,false,"0","1 wioska"],"8373557":["XDrobik4","112","0",0,false,"0","1 wioska"],"8451722":["artur5422","101","0",0,false,"0","1 wioska"],"8493865":["OSAPREZES","746","4970",0,false,"0","1 wioska"],"8505344":["soluwa1212","369","0",0,false,"0","1 wioska"],"8623673":["KomcioDestroyer","380","0",0,false,"0","1 wioska"],"8655960":["fiuuu","630","4816",0,false,"0","1 wioska"],"8792072":["PasiKropek","761","5044",0,false,"0","1 wioska"],"8832480":["vanirhistoryk","235","509",0,false,"0","1 wioska"],"8834044":["zaqwsx11","778","0",0,false,"0","1 wioska"],"8840998":["Lovelas99","26","0",0,false,"0","1 wioska"],"8914259":["emanis","26","0",0,false,"0","1 wioska"],"8915687":["terminator32159","102","0",0,false,"0","1 wioska"],"8916146":["piotrek8617d","536","5044",0,false,"0","1 wioska"],"8922120":["Deros Hajt","573","5044",0,false,"0","1 wioska"],"9014896":["wroninho","575","4816",0,false,"0","1 wioska"],"9027984":["giorgimpl","298","0",0,false,"0","1 wioska"],"9060838":["hamiaczek","106","176",0,false,"0","1 wioska"],"9065573":["elszosti","26","0",0,false,"0","1 wioska"],"9074150":["ziom12000","115","0",0,false,"0","1 wioska"],"9094862":["Nocny.","240","0",0,false,"0","1 wioska"],"9095968":["ozimcc","26","0",0,false,"0","1 wioska"],"9182723":["Lord tomek666","778","4970",0,false,"0","1 wioska"],"9227840":["K.Kotarski","338","6987",0,false,"0","1 wioska"],"9236838":["DreamingGirl","262","0",0,false,"0","1 wioska"],"9254781":["Lord Kross","434","5044",0,false,"0","1 wioska"],"9256268":["Sir Niepokonany2","26","0",0,false,"0","1 wioska"],"9324311":["Sir loowca","233","0","dnia 11.06. o 04:39",false,"0","1 wioska"],"698192499":["Lord wicio","26","0",0,false,"0","1 wioska"],"698211201":["Mati1328","174","6562",0,false,"0","1 wioska"],"698211251":["Lady Jasprytek","26","0",0,false,"0","1 wioska"],"698267560":["darek412","181","4452",0,false,"0","1 wioska"],"698278888":["blazejj12","101","0","dnia 09.06. o 19:38",false,"0","1 wioska"],"698280933":["Lord Sander","45","0",0,false,"0","1 wioska"],"698294769":["Soldiere","311","0",0,false,"0","1 wioska"],"698333539":["goores","195","0",0,false,"0","1 wioska"],"698378304":["fioletowy nexus","219","0","jutro o 15:35",false,"0","1 wioska"],"698378700":["Navis","152","0",0,false,"0","1 wioska"],"698383626":["magnetic83","498","5044",0,false,"0","1 wioska"],"698392118":["CHMIELnicki od lektur","306","0",0,false,"0","1 wioska"],"698419023":["Madzia15701570","201","0",0,false,"0","1 wioska"],"698429154":["amanrod1","1.044","4970",0,false,"78660","1 wioska"],"698442949":["Korwinista","875","4970",0,false,"0","1 wioska"],"698487501":["tomahawa","760","4816",0,false,"0","1 wioska"],"698556661":["kerrmit","230","0",0,false,"0","1 wioska"],"698569362":["ziomek11q","38","0",0,false,"0","1 wioska"],"698594851":["Gladiator 15","539","5909",0,false,"0","1 wioska"],"698596398":["Sub Zero","26","0",0,false,"0","1 wioska"],"698609216":["JedrekWar","26","0",0,false,"0","1 wioska"],"698636314":["no1special","26","0","jutro o 21:41",false,"0","1 wioska"],"698639174":["SwagMan","26","0",0,false,"0","1 wioska"],"698647722":["ElitarnyKox","26","0",0,false,"0","1 wioska"],"698663791":["MlodyEEM","61","0","dnia 12.06. o 13:11",false,"0","1 wioska"],"698664858":["Szkielet233","366","719",0,false,"0","1 wioska"],"698666675":["Trafas","99","0",0,false,"0","1 wioska"],"698693834":["pakul12","26","0",0,false,"0","1 wioska"],"698711086":["dziodzikson","138","6562",0,false,"0","1 wioska"],"698713570":["jkkz39","447","4816",0,false,"0","1 wioska"],"698719005":["KOXFREE","26","0",0,false,"0","1 wioska"],"698720714":["Z\u0142y Vipek","26","0",0,false,"0","1 wioska"],"698736068":["Ryan11patryk","26","0",0,false,"0","1 wioska"],"698736542":["GoldmanTV","351","6562",0,false,"0","1 wioska"],"698764582":["Inferno11","722","4816",0,false,"0","1 wioska"],"698772996":["Velhaco","149","5408","dnia 10.06. o 09:25",false,"0","1 wioska"],"698776830":["Mefistoteles","374","0",0,false,"0","1 wioska"],"698780310":["C9 Xerath God aka TeCe","95","0",0,false,"0","1 wioska"],"698782956":["Pluum","297","0",0,false,"0","1 wioska"],"698798785":["Abgar","547","5044",0,false,"0","1 wioska"],"698838966":["cannabis.out","212","222",0,false,"0","1 wioska"],"698839540":["Lord Jaczkob 543","38","0","jutro o 10:32",false,"0","1 wioska"],"698843015":["Marrek","518","0",0,false,"0","1 wioska"],"698848676":["szczu","26","0",0,false,"0","1 wioska"],"698851063":["krzyk270","275","5909",0,false,"0","1 wioska"],"698853386":["SkrzydlatyBoa","930","4970",0,false,"0","1 wioska"],"698865162":["Mattheee","26","0",0,false,"0","1 wioska"],"698869320":["Ser JemSer","26","0","dnia 13.06. o 11:53",false,"0","1 wioska"],"698870946":["Dzidar","256","0",0,false,"0","1 wioska"],"698881205":["Sosobert","98","0","dnia 09.06. o 21:06",false,"0","1 wioska"],"698887989":["jurek59","718","5044",0,false,"0","1 wioska"],"698888296":["Axeel","197","6562","dnia 09.06. o 01:20",false,"0","1 wioska"],"698888914":["bakax7","26","0",0,false,"0","1 wioska"],"698888973":["seren785","26","0",0,false,"0","1 wioska"],"698898326":["piokol123","316","0",0,false,"0","1 wioska"],"698900045":["AstroKozak","1.027","6740",0,false,"0","1 wioska"],"698903297":["Mateo von Jungingen","426","4816",0,false,"0","1 wioska"],"698911773":["trollmeen","26","0",0,false,"0","1 wioska"],"698915120":["ImBack","26","0",0,false,"0","1 wioska"],"698915517":["micha\u0142x","26","0",0,false,"0","1 wioska"],"698918334":["DisTurBed4545","1.070","5909",0,false,"0","1 wioska"],"698924163":["Przemekhsx","26","0",0,false,"0","1 wioska"],"698934449":["TeDDY18","728","0",0,false,"0","1 wioska"],"698937984":["rzeznik21","831","4970",0,false,"0","1 wioska"],"698939501":["wymiatacz12","237","5909",0,false,"0","1 wioska"],"698940904":["fleciu","252","0",0,false,"0","1 wioska"],"698941147":["Maltaz","387","5044",0,false,"0","1 wioska"],"698947535":["rudy3","523","5909",0,false,"0","1 wioska"],"698948256":["Horeno","69","719",0,false,"0","1 wioska"],"698949690":["144424","26","0",0,false,"0","1 wioska"],"698949996":["Lady Lord matrix","90","4017",0,false,"0","1 wioska"],"698951664":["Tandzik","77","0","dnia 13.06. o 17:11",false,"0","1 wioska"],"698951912":["Gorzki smak","179","5745",0,false,"0","1 wioska"],"698953067":["MrMaati","167","6562",0,false,"0","1 wioska"],"698953580":["polak1606","86","0","dnia 10.06. o 12:00",false,"0","1 wioska"],"698957574":["Stixx","1.228","556",0,false,"0","1 wioska"],"698958021":["spejson24","588","4816",0,false,"0","1 wioska"],"698959253":["Smotius","352","0",0,false,"0","1 wioska"],"698959314":["Sopelek853","353","3489",0,false,"0","1 wioska"],"698960403":["tom-","578","0",0,false,"0","1 wioska"],"698960448":["ashmoul","348","0",0,false,"0","1 wioska"],"698960870":["koloruj111","496","5909",0,false,"0","1 wioska"],"698961326":["zimixxx","404","5909",0,false,"0","1 wioska"],"698961455":["Pawciu69","752","5044",0,false,"0","1 wioska"],"698961587":["Go\u015b\u0107961587","160","4491",0,false,"0","1 wioska"],"698961814":["zeusea360","239","719",0,false,"0","1 wioska"],"698962023":["kirdann","560","4816",0,false,"0","1 wioska"],"698962980":["Cleanter","1.509","5909",0,false,"0","1 wioska"],"698963114":["pokerowskipoker","185","0",0,false,"0","1 wioska"],"698963410":["Qwowadis","608","4970",0,false,"0","1 wioska"],"698963460":["pieterDDD","967","5909",0,false,"0","1 wioska"],"698963481":["supehson","26","0","dnia 13.06. o 11:25",false,"0","1 wioska"],"698963483":["Heinr1ch","26","0",0,false,"0","1 wioska"],"698963489":["supejson","861","5909",0,false,"0","1 wioska"],"698963562":["davcie","673","4816",0,false,"0","1 wioska"],"698963655":["LefriSs","855","4970",0,false,"0","1 wioska"],"698963659":["Go\u015b\u0107963659","38","0",0,false,"0","1 wioska"],"698963716":["zden","195","0",0,false,"0","1 wioska"],"698963730":["Yoshimitsu96","827","719",0,false,"0","1 wioska"],"698963917":["koorcok","1.765","4970",0,false,"0","1 wioska"],"698964056":["zdeno","1.082","6007",0,false,"0","1 wioska"],"698964070":["Moric","418","4816",0,false,"0","1 wioska"],"698964073":["MarcinM666","491","4816",0,false,"0","1 wioska"],"698964116":["kaman","54","0",0,false,"0","1 wioska"],"698964155":["JadowityWonsz","217","0",0,false,"0","1 wioska"],"698964260":["Go\u015b\u0107964260","52","0",0,false,"0","1 wioska"],"698964413":["patrykweri23","768","0",0,false,"0","1 wioska"],"698964464":["Sir Golob","1.618","4970",0,false,"0","1 wioska"],"698964508":["killer2014","178","0",0,false,"0","1 wioska"],"698964513":["Sir seba12","160","0",0,false,"0","1 wioska"],"698964718":["Go\u015b\u0107964718","128","0",0,false,"0","1 wioska"],"698964909":["Neuro","597","4970",0,false,"0","1 wioska"],"698964921":["RudyZbyszek","266","0",0,false,"0","1 wioska"],"698964941":["Frediferr","199","0",0,false,"0","1 wioska"],"698965000":["PrincessLuna","180","0",0,false,"0","1 wioska"],"698965132":["mlody321","517","6803",0,false,"0","1 wioska"],"698965183":["michalmechula","489","5044",0,false,"0","1 wioska"],"698965241":["Tr0ll3r","208","0",0,false,"0","1 wioska"],"698965381":["derek97","166","0",0,false,"0","1 wioska"],"698965402":["Go\u015b\u0107965402","74","719",0,false,"0","1 wioska"],"698965424":["bkazek1999","312","719",0,false,"0","1 wioska"],"698965597":["Reaper1","510","6740",0,false,"0","1 wioska"],"698965624":["dummer","629","4816",0,false,"0","1 wioska"],"698965734":["artur i dziadek","49","0",0,false,"0","1 wioska"],"698965776":["Lord Ryuku","78","5408",0,false,"0","1 wioska"],"698965815":["dawidnkj","100","0",0,false,"0","1 wioska"],"698965935":["Grumbor99","171","0",0,false,"0","1 wioska"],"698965989":["olaaSKR","416","5044",0,false,"0","1 wioska"],"698966036":["mortus5","156","0",0,false,"0","1 wioska"],"698966170":["kalicopali","70","0",0,false,"0","1 wioska"],"698966192":["Go\u015b\u0107966192","26","0",0,false,"0","1 wioska"],"698966529":["Go\u015b\u0107966529","26","0",0,false,"0","1 wioska"],"698966533":["dk694455","56","0",0,false,"0","1 wioska"],"698966604":["jarek1234r","26","0",0,false,"0","1 wioska"],"698966621":["BraveEragon","26","0",0,false,"0","1 wioska"],"698966773":["Go\u015b\u0107966773","26","0",0,false,"0","1 wioska"],"698966837":["maciejek597","38","0",0,false,"0","1 wioska"],"698966847":["ewwwwe","28","0",0,false,"0","1 wioska"],"698966916":["MKacz55","26","0",0,false,"0","1 wioska"],"698966959":["Lubiecie224324","106","6562",0,false,"0","1 wioska"],"698967137":["Snajper0075","45","0",0,false,"0","1 wioska"],"698967146":["Ryuuken","26","0",0,false,"0","1 wioska"],"698967169":["magicznymefjasz","38","0",0,false,"0","1 wioska"],"698967235":["Cabriolet","155","0",0,false,"0","1 wioska"],"698967257":["TomOo","26","0",0,false,"0","1 wioska"],"698967333":["Pedro82","365","0",0,false,"0","1 wioska"],"698967401":["Mattheus","397","6321",0,false,"0","1 wioska"],"698967419":["kazikxpompa","52","0",0,false,"0","1 wioska"],"698967434":["Dominik554","311","3489",0,false,"0","1 wioska"],"698967488":["Gedzio1997","705","719",0,false,"0","1 wioska"],"698967505":["Go\u015b\u0107967505","73","0",0,false,"0","1 wioska"],"698967520":["Blinek","38","0",0,false,"0","1 wioska"],"698967547":["Lord Graczu\u015b","38","0",0,false,"0","1 wioska"],"698967579":["kubalm","52","0",0,false,"0","1 wioska"],"698967674":["Go\u015b\u0107967674","30","0",0,false,"0","1 wioska"],"698967707":["KubusPL114","38","0",0,false,"0","1 wioska"],"698967779":["AFWiktoR","150","6562",0,false,"0","1 wioska"],"698967901":["theuser123","26","0",0,false,"0","1 wioska"],"698967983":["wisniaziom1","393","4816",0,false,"0","1 wioska"],"698968033":["Go\u015b\u0107968033","26","0",0,false,"0","1 wioska"],"698968179":["DrewnoKalina","26","0",0,false,"0","1 wioska"],"698968200":["Ivette9669","26","0",0,false,"0","1 wioska"],"698968215":["Adamus29123","386","0",0,false,"0","1 wioska"],"698968267":["DON ALIBABA","272","0",0,false,"0","1 wioska"],"698968313":["daro13","38","0",0,false,"0","1 wioska"],"698968329":["19stachu73","26","0",0,false,"0","1 wioska"],"698968437":["mietek245","26","0",0,false,"0","1 wioska"],"698968520":["byczybur","26","0",0,false,"0","1 wioska"],"698968648":["Go\u015b\u0107968648","28","0",0,false,"0","1 wioska"],"698968653":["kornelex0","66","0",0,false,"0","1 wioska"],"698968740":["Yrben","26","0",0,false,"0","1 wioska"],"698968883":["villam90","485","4816",0,false,"78221","1 wioska"],"698968905":["zenon2409","26","0",0,false,"0","1 wioska"],"698969065":["Jakub852852","26","0",0,false,"0","1 wioska"],"698969075":["dawid dawid","433","719",0,false,"0","1 wioska"],"698969123":["Go\u015b\u0107969123","26","0",0,false,"0","1 wioska"],"698969189":["wieczny potempiony","33","0",0,false,"0","1 wioska"],"698969271":["robcio20","67","5408",0,false,"0","1 wioska"],"698969372":["damib15","52","0",0,false,"0","1 wioska"],"698969431":["Jestem Bogiem Tej Gry","320","6987",0,false,"0","1 wioska"],"698969435":["Jankazik","56","0",0,false,"0","1 wioska"],"698969507":["popiol","52","0",0,false,"0","1 wioska"],"698969521":["kozyr666","38","0",0,false,"0","1 wioska"],"698969565":["Kr\u00f3l Dzikiego Gonu","1.035","4816",0,false,"0","1 wioska"],"698969602":["XszymoxitX","311","0",0,false,"0","1 wioska"],"698969608":["Szymhem","359","0",0,false,"0","1 wioska"],"698969630":["Agata110621","70","0",0,false,"0","1 wioska"],"698969663":["Varisch1523","102","0",0,false,"0","1 wioska"],"698969664":["Gangreena","308","0",0,false,"0","1 wioska"],"698969685":["durza22","26","0",0,false,"0","1 wioska"],"698969698":["kubkomistrz","26","0",0,false,"0","1 wioska"],"698969714":["Misza18","26","0",0,false,"0","1 wioska"],"698969743":["Lord Aleksander Wielki","385","0",0,false,"0","1 wioska"],"698969802":["czarny W-R","196","0",0,false,"0","1 wioska"],"698969833":["Rafal051990","26","0",0,false,"0","1 wioska"],"698969883":["owo1","52","0",0,false,"0","1 wioska"],"698969919":["Ochaj","218","6562",0,false,"0","1 wioska"],"698969932":["KR\u00d3L SZYMON 1 WIELKI","26","0",0,false,"0","1 wioska"],"698969936":["gangalbania","254","0",0,false,"0","1 wioska"],"698970062":["Go\u015b\u0107970062","30","0",0,false,"0","1 wioska"],"698970081":["kubsoneq57","394","4816",0,false,"0","1 wioska"],"698970228":["hakerbaker12","67","6681",0,false,"0","1 wioska"],"698970255":["Jaanroth","26","0",0,false,"0","1 wioska"],"698970473":["Michal Skiperr","38","0",0,false,"0","1 wioska"],"698970549":["-Dark Pig-","38","0",0,false,"0","1 wioska"],"698970664":["danielfanisca","26","0",0,false,"0","1 wioska"],"698970724":["Busjio","32","0",0,false,"0","1 wioska"],"698970726":["Go\u015b\u0107970726","26","0",0,false,"0","1 wioska"],"698970736":["Szymon 546","38","0",0,false,"0","1 wioska"],"698970818":["Lord Cacek","106","6562",0,false,"0","1 wioska"],"698970852":["hida","200","0",0,false,"0","1 wioska"],"698970894":["Galaxy98","64","0",0,false,"0","1 wioska"],"698970952":["Go\u015b\u0107970952","26","0",0,false,"0","1 wioska"],"698970990":["Go\u015b\u0107970990","26","0",0,false,"0","1 wioska"],"698971110":["Go\u015b\u0107971110","26","0",0,false,"0","1 wioska"],"698971217":["Sirius00","38","0",0,false,"0","1 wioska"],"698971281":["zarobek","26","0","dzisiaj o 16:48",false,"0","1 wioska"],"698971391":["Go\u015b\u0107971391","83","5408","dzisiaj o 19:52",false,"0","1 wioska"],"698971466":["boj\u00f3wka77","396","6562","dzisiaj o 21:48",false,"0","1 wioska"],"698971501":["klaudynq","30","0","dzisiaj o 22:32",false,"0","1 wioska"],"698971573":["Maajid","72","0","jutro o 08:13",false,"0","1 wioska"],"698971591":["Go\u015b\u0107971591","122","0","jutro o 09:21",false,"0","1 wioska"],"698971822":["PapaBiceps","257","6562","jutro o 16:55",false,"0","1 wioska"],"698971886":["LordJane","147","6712","jutro o 18:16",false,"78385","1 wioska"],"698971909":["Mathev18","26","0","dnia 09.06. o 22:38",false,"0","1 wioska"],"698972001":["Go\u015b\u0107972001","40","0","jutro o 21:00",false,"0","1 wioska"],"698972067":["nocy15","26","0","jutro o 22:49",false,"0","1 wioska"],"698972110":["Szymorex","59","0","dnia 09.06. o 02:44",false,"0","1 wioska"],"698972127":["Go\u015b\u0107972127","91","0","dnia 09.06. o 07:28",false,"0","1 wioska"],"698972209":["Filon Jr","48","0","dnia 09.06. o 11:44",false,"0","1 wioska"],"698972252":["PanKacper","56","0","dnia 09.06. o 13:37",false,"0","1 wioska"],"698972309":["An0nim","38","0","dnia 09.06. o 15:14",false,"0","1 wioska"],"698972328":["karixxx","26","0","dnia 09.06. o 15:54",false,"0","1 wioska"],"698972404":["cruizer","236","6562","dnia 09.06. o 18:23",false,"0","1 wioska"],"698972406":["Koszynu","52","0","dnia 09.06. o 18:13",false,"0","1 wioska"],"698972491":["NWCTW","277","0","dnia 09.06. o 20:31",false,"0","1 wioska"],"698972559":["wccserwis","26","0","dnia 09.06. o 22:23",false,"0","1 wioska"],"698972579":["HIPERAX","38","0","dnia 09.06. o 22:54",false,"0","1 wioska"],"698972637":["bidekk122","98","0","dnia 10.06. o 07:14",false,"0","1 wioska"],"698972854":["FlorisV","26","0","dnia 10.06. o 16:03",false,"0","1 wioska"],"698972922":["FaustXVI","103","0","dnia 10.06. o 18:15",false,"0","1 wioska"],"698972979":["hubert0896","26","0","dnia 10.06. o 20:15",false,"0","1 wioska"],"698972985":["AdamBullsPL","26","0","dnia 10.06. o 20:22",false,"0","1 wioska"],"698973194":["Chuddy","75","0","dnia 11.06. o 07:56",false,"0","1 wioska"],"698973300":["Delikates","162","6912","dnia 11.06. o 11:22",false,"0","1 wioska"],"698973303":["Kinder42","183","0","dnia 11.06. o 11:28",false,"0","1 wioska"],"698973447":["robimyplacki","38","0","dnia 11.06. o 13:52",false,"0","1 wioska"],"698973503":["smieliczek","262","0","dnia 11.06. o 15:33",false,"0","1 wioska"],"698974153":["Go\u015b\u0107974153","26","0","dnia 12.06. o 16:22",false,"0","1 wioska"],"698974223":["Lord Jesie\u0144","90","0","dnia 12.06. o 18:35",false,"0","1 wioska"],"698974243":["BubaSpaliCiWioche","89","0","dnia 12.06. o 19:03",false,"0","1 wioska"],"698974300":["Kielav","26","0","dnia 12.06. o 20:55",false,"0","1 wioska"],"698974470":["koxy33","124","6796","dnia 13.06. o 09:10",false,"0","1 wioska"],"698974509":["Go\u015b\u0107974509","36","0","dnia 13.06. o 10:30",false,"0","1 wioska"],"698974649":["lukaszsz1","136","0","dnia 13.06. o 15:01",false,"0","1 wioska"],"698974873":["aghsasidkhasjd","26","0","dnia 13.06. o 21:06",false,"0","1 wioska"],"698975084":["Ameliia","55","0","dnia 14.06. o 10:37",false,"0","1 wioska"]},"allies":{"176":["Zniszczy\u0107 \u0141PK","8.540","Z\u0141PK","0"],"222":["Trinitis","888","TS","0"],"509":["*Zjednoczone Kr\u00f3lestwo*","39.863","TheOne","0"],"556":["handlowcy","30.997","hdl","0"],"719":["Wbijaj","30.003","WJ","0"],"1767":["kalisie","188","kal","0"],"2718":["Amicorum Omnia Communia.","187.343","Fidei.","71394"],"3489":["Hooligans","23.050","HOOLS","70023"],"4017":["Wojownicy Upad\u0142ych","234","WU","0"],"4452":["Armia Bursieta","3.730","~AB~","0"],"4491":["Podopieczni Rolanda","283","#PDR","0"],"4816":["Spejsonowcy","27.724","SPC","74262"],"4970":["Reactors","47.102","RS","73474"],"5044":["Plemi\u0119 Gospodarki Rabunkowej","33.153","PGR","0"],"5408":["M\u0141OTY","8.639","MOT","0"],"5745":["Piranha","179","PRH","0"],"5909":["JOT.PE ARMIA","52.604","JOT.PE","0"],"6007":["\u0141OWCY pS\u00d3W","1.371","\u0141OWCY","0"],"6321":["Trojanie","3.529","TJE","0"],"6562":["TeamBiceps","3.684","BiC","77905"],"6681":["ygbhnumji","67","yhjuki","0"],"6712":["WojskoPolskie","270","GROM","78359"],"6740":["Kumple","1.537","Kumple","0"],"6796":["Handluj z Nami!","4.723","HzN!","0"],"6803":["~Odrodzeni~","38.042","RB","78823"],"6912":["Burlesque","162","BSE","0"],"6987":["Terytorium","1.449","TER","0"]}}}];
+
+
+//]]>
+</script>
+
+
+<table cellspacing="0" cellpadding="0">
+    <tr>
+	<td  id="map_big" class="map_big visible" valign="top">
+			<div id="worldmap" class="popup_style" style="">
+	<form name="worldmap" action="" method="post">
+		<!--  WORLDMAP HEAD -->
+		<div id="worldmap_header">
+			<div class="close popup_menu">
+				<a href="javascript:void(0);" onclick="Worldmap.toggle(); return false;">Zamkn¹æ</a>
+			</div>
+
+			
+			<input type="hidden" name="min_x" value="222" />
+			<input type="hidden" name="min_y" value="221" />
+		</div>
+
+		<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/throbber.gif" id="worldmap-throbber" alt="Loading..." style="display:none" class="" />
+
+		<div id="worldmap_body">
+			<div id="worldmap_image">
+				<input type="image" src="/graphic/transparent.png" />
+			</div>
+
+					</div>
+
+		<div id="worldmap_footer">
+			<table style="text-align:left;display:inline;">
+				<tr>
+					<th>Wioski</th>
+					<th>Barbarzyñcy</th>
+					<th>%</th>
+					<th>W³asne plemiê</th>
+					<th>%</th>
+					<th>W³asne</th>
+					<th>%</th>
+				</tr>
+				<tr>
+					<td>73353</td>
+					<td>40016</td>
+					<td>54.55</td>
+					<td>91</td>
+					<td>0.12</td>
+					<td>1</td>
+					<td>0</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+	$(document).ready(function() {
+		Worldmap.init(0);
+	});
+//]]>
+</script>		<div class="containerBorder narrow" id="map_whole">
+	<table cellspacing="0" cellpadding="0" class="map_container" style="border-spacing: 0">
+		<tr>
+			<td></td>
+			<td align="center" onclick="TWMap.scrollBlock(0, -1); return false;" class="map_navigation">
+				<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/map/map_n.png" alt="map/map_n.png" style="z-index:1; position:relative;" class="" />
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td align="center" onclick="TWMap.scrollBlock(-1, 0); return false;" class="map_navigation">
+				<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/map/map_w.png" alt="map/map_w.png" style="z-index:1; position:relative;" class="" />
+			</td>
+
+			<td style="padding: 0">
+				<div id="map_wrap" style="position:relative;">
+				 	<div id="map_coord_y_wrap" style="height:325px;">
+						<div id="map_coord_y" style="position:absolute; left:0px; top:0px; height:38000px; overflow: visible;"></div>					</div>
+					<div id="map_coord_x_wrap" style="width:477px; ">
+						<div id="map_coord_x" style="position:absolute; left:0px; top:0px; width:53000px; overflow: visible;"></div>					</div>
+					<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/fullscreen.png" id="fullscreen" onclick="TWMap.goFullscreen()" alt="" class="" />
+					<a class="mp" id="mp_res" title="Wyœlij surowce" href="/game.php?screen=map"></a>
+					<a class="mp" id="mp_att" title="Wyœlij wojska" href="/game.php?screen=map"></a>
+					<a class="mp" id="mp_lock" title="Zarezerwuj wioskê" href="/game.php?screen=map"></a>
+					<a class="mp" id="mp_unlock" title="Usuñ rezerwacjê" href="/game.php?screen=map"></a>
+					<a class="mp" id="mp_fav" title="Dodaj do ulubionych" href="/game.php?screen=map"></a>
+					<a class="mp" id="mp_unfav" title="Usuñ z ulubionych" href="/game.php?screen=map"></a>
+					<a class="mp" id="mp_msg" title="Napisz wiadomoœæ" href="/game.php?screen=map"></a>
+					<a class="mp" id="mp_profile" title="Poka¿ profil gracza" href="/game.php?screen=map"></a>
+					<a class="mp" id="mp_overview" title="Przegl¹d wioski" href="/game.php?screen=map"></a>
+					<a class="mp" id="mp_recruit" title="Rekrutacja" href="/game.php?screen=map"></a>
+					<a class="mp" id="mp_tab" title="Poka¿ w nowej zak³adce" href="/game.php?screen=map"></a>
+					<a class="mp" id="mp_info" title="Informacje o wiosce" href="/game.php?screen=map"></a>
+																		<a class="mp farmassistant-tooltip" data-minspeed="0.001666666667" id="mp_farm_a" href="/game.php?screen=map" data-tooltip-tpl="&lt;img src=&quot;http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_light.png&quot; title=&quot;&quot; alt=&quot;&quot; class=&quot;&quot; /&gt;5&lt;br /&gt;&lt;img src=&quot;http://dspl.innogamescdn.com/8.34/26279/graphic/res.png&quot; title=&quot;&quot; alt=&quot;&quot; class=&quot;&quot; /&gt;420&lt;br /&gt;"></a>
+													<a class="mp farmassistant-tooltip" data-minspeed="0.0007575757576" id="mp_farm_b" href="/game.php?screen=map" data-tooltip-tpl="&lt;img src=&quot;http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_sword.png&quot; title=&quot;&quot; alt=&quot;&quot; class=&quot;&quot; /&gt;10&lt;br /&gt;&lt;img src=&quot;http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_knight.png&quot; title=&quot;&quot; alt=&quot;&quot; class=&quot;&quot; /&gt;1&lt;br /&gt;&lt;img src=&quot;http://dspl.innogamescdn.com/8.34/26279/graphic/res.png&quot; title=&quot;&quot; alt=&quot;&quot; class=&quot;&quot; /&gt;263&lt;br /&gt;"></a>
+																<a class="mp" id="mp_invite" title="Zaproœ gracza" href="/game.php?screen=map"></a>
+					<a class="mp" id="mp_invite_hide" title="Ukryj podpowiedŸ o zaproszeniach" href="/game.php?screen=map"></a>
+
+					                        <a id="map" href="#" style="width:477px; height:342px;overflow:hidden;position:relative;background-image:url('http://dspl.innogamescdn.com/8.34/26279/graphic/map/gras4.png');">
+                            <div id="map_blend" style="position:absolute; top:0px; left:0px; width:100%; height:100%; background-color:black; z-index: 20; opacity:0;  "></div>
+                        </a>
+                        <div id="special_effects_container"></div>
+					
+
+				</div>
+			</td>
+
+			<td align="center" onclick="TWMap.scrollBlock(1, 0); return false;" class="map_navigation">
+				<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/map/map_e.png" alt="map/map_e.png" style="z-index:1; position:relative;" class="" />
+			</td>
+		</tr>
+
+
+		<tr>
+			<td></td>
+
+			<td align="center" onclick="TWMap.scrollBlock(0, 1); return false;" class="map_navigation">
+				<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/map/map_s.png" alt="map/map_s.png" style="z-index:1; position:relative;" class="" />
+			</td>
+
+			<td></td>
+		</tr>
+	</table>
+	</div>
+				<br/>
+		<div class="containerBorder map-legend-container">
+<table>
+	<tr class="nowrap">
+		<td class="small" valign="top">Standard:</td>
+		<td>
+			<div class="map_legend">
+				<div style="background-color:rgb(255,255,255)"></div> <span>Wybrane</span>
+			</div>
+			<div class="map_legend">
+				<div style="background-color:rgb(240,200,0)"></div> <span>W³asne wioski</span>
+			</div>
+            <div class="map_legend">
+                <div style="background-color:rgb(69,255,146)"></div> <span>Przyjaciele</span>
+            </div>
+			<div class="map_legend" style="clear: both">
+				<div style="background-color:rgb(0,0,244)"></div> <span>W³asne plemiê</span>
+			</div>
+			<div class="map_legend" >
+				<div style="background-color:rgb(150,150,150)"></div> <span>Barbarzyñskie</span>
+			</div>
+			<div class="map_legend">
+				<div style="background-color:rgb(130,60,10)"></div> <span>Inne</span>
+			</div>
+		</td>
+	</tr>
+		<tr class="nowrap">
+		<td class="small" valign="top">Plemiê:</td>
+		<td>
+			<div class="map_legend">
+				<div style="background-color:rgb(0,160,244)"></div> <span>Sprzymierzeñcy</span>
+			</div>
+			<div class="map_legend">
+				<div style="background-color:rgb(128,0,128)"></div> <span>Pakty o nieagresji</span>
+			</div>
+			<div class="map_legend">
+				<div style="background-color:rgb(244,0,0)"></div> <span>Wrogowie</span>
+			</div>
+		</td>
+	</tr>
+			</table>
+</div>
+<br />
+
+
+		<script type="text/javascript">
+		//<![CDATA[
+		
+				
+						
+					TWMap.allyRelations[4970] = 'partner';
+		
+                    TWMap.friends[698953369] = '1';
+                    TWMap.friends[698970081] = '1';
+        
+		
+		
+		//]]>
+		</script>
+	
+		</td>
+
+	<td id="map_topo" class="map_topo" valign="top">
+		<div class="containerBorder" id="minimap_whole">
+		<table cellspacing="0" cellpadding="0" class="map_container minimap_container" style="border-spacing: 0">
+			<tr>
+				<td align="center">
+					<img alt="Pó³nocny zachód" class="dir_arrow" onclick="TWMap.scrollBlock(-1, -1); return false;" style="z-index: 1; position: relative;" src="/graphic/map/map_nw.png?1" />
+				</td>
+				<td align="center">
+					<img alt="Pó³noc" class="dir_arrow" onclick="TWMap.scrollBlock(0, -1); return false;" style="z-index: 1; position: relative;" src="/graphic/map/map_n.png?1" />
+				</td>
+				<td align="center">
+					<img alt="Pó³nocny wschód" class="dir_arrow" onclick="TWMap.scrollBlock(1, -1); return false;" style="z-index: 1; position: relative;" src="/graphic/map/map_ne.png?1" />
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<img alt="Zachód" class="dir_arrow" onclick="TWMap.scrollBlock(-1, 0); return false;" style="z-index: 1; position: relative;" src="/graphic/map/map_w.png?1" />
+				</td>
+				<td style="padding: 0" id="minimap_cont">
+					<div id="minimap" style="overflow:hidden; position:relative; padding:0px;width:250px; height:250px">
+						<div id="minimap_viewport" style="border:1px solid white; position: absolute; z-index:10;"></div>
+					</div>
+				</td>
+				<td align="center">
+					<img alt="Wschód" class="dir_arrow" onclick="TWMap.scrollBlock(1, 0); return false;" style="z-index: 1; position: relative;" src="/graphic/map/map_e.png?1" />
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<img alt="Po³udniowy zachód" class="dir_arrow" onclick="TWMap.scrollBlock(-1, 1); return false;" style="z-index: 1; position: relative;" src="/graphic/map/map_sw.png?1" />
+				</td>
+				<td align="center">
+					<img alt="Po³udnie" class="dir_arrow" onclick="TWMap.scrollBlock(0, 1); return false;" style="z-index: 1; position: relative;" src="/graphic/map/map_s.png?1" />
+				</td>
+				<td align="center">
+					<img alt="Po³udniowy wschód" class="dir_arrow" onclick="TWMap.scrollBlock(1, 1); return false;" style="z-index: 1; position: relative;" src="/graphic/map/map_se.png?1" />
+				</td>
+			</tr>
+		</table>
+		</div>
+		<div id="map_config">
+					<div style="margin-top:10px;margin-bottom:10px;">
+							<a href="javascript:void(0);" onclick="Worldmap.toggle()">&raquo; Poka¿ mapê œwiata</a><br/>
+			
+			</div>
+						<table id="map_search" class="target-select vis" data-on-choice="TWMap.onSearchChoice" style="width:100%">
+    <tr><th>Szukaj</th></tr>
+    <tr>
+        <td>
+            <div class="target-types">
+                <label><input type="radio" name="target_type" value="player_name" checked> Nazwa gracza</label>
+                <label><input type="radio" name="target_type" value="village_name"> Nazwa wioski</label>
+            </div>
+
+            <div class="target-input float_left">
+                <input type="text" name="input" class="target-input-field target-input-autocomplete" data-type="player" value="" autocomplete="off" tabindex="14" data-no-suggestions-hint="Brak wyników" data-ignore-single-exact-match="1">
+            </div>
+        </td>
+    </tr>
+</table>
+
+<script>
+    // this will be attached to the search widget
+    TWMap.onSearchChoice = function(village) {
+        TWMap.focusUserSpecified(village.x, village.y);
+        this.removeConfirmedVillage(); // "this" references the search widget
+    };
+
+    $(function() {
+        var search_widget = new TargetSelection($('#map_search')[0]);
+    });
+</script>		<br/>
+		
+		
+							<table class="vis" style="border-spacing:0px;border-collapse:collapse;" width="100%">
+		<tr>
+			<th colspan="3">Opcje wyœwietlania</th>
+		</tr>
+								
+		
+					<tr>
+	<td>
+		<input type="checkbox" id="show_popup" />
+	</td>
+	<td>
+		<label for="show_popup">Poka¿ wyskakuj¹ce okienko</label>
+	</td>
+	<td width="18">
+			</td>
+</tr>
+		
+		</table>
+		</div>
+		<br />				<form action="" method="post">
+		    <table class="vis"  width="100%" style="border-spacing:0px;border-collapse:collapse;">
+			<tr>
+			    <th colspan="3">Scentruj mapê</th>
+			</tr>
+			<tr>
+			    <td class="nowrap">
+			    x:&nbsp;<input type="text" name="x" id="mapx" class="centercoord" value="337" style="width: 30px" onkeyup="xProcess('mapx', 'mapy')" />
+			    y:&nbsp;<input type="text" name="y" id="mapy" class="centercoord" value="691" style="width: 30px" />
+			    </td>
+			    <td>
+				<input class="btn" type="submit" onclick="return TWMap.focusSubmit();" value="OK" />
+			    </td>
+				<td width="18">
+									</td>
+			</tr>
+
+					    </table>
+		</form>
+		
+
+
+	</td>
+    </tr>
+</table>
+
+<!-- Translations -->
+	<input type="hidden" id="newbieProt" value="Cel jeszcze ma ochronê pocz¹tkow¹. Mo¿na zaatakowaæ dopiero %s."/>
+	<input type="hidden" id="barbarianVillage" value="wioska barbarzyñska"/>
+	<input type="hidden" id="pointFormat" value="%s (%s punktów)"/>
+	<input type="hidden" id="villageFormat" value="%name% (%x%|%y%) K%con%"/>
+	<input type="hidden" id="villageNotes" value="Notatki"/>
+	<input type="hidden" id="villageFavoriteAdded" value="Wioska zosta³a dodana do ulubionych."/>
+	<input type="hidden" id="villageFavoriteRemoved" value="Wioska zosta³a usuniêta z ulubionych."/>
+	<input type="hidden" id="barbarianVillage" value="wioska barbarzyñska"/>
+	<input type="hidden" id="changesSaved" value="Zmiany zosta³y zapisane."/>
+	<input type="hidden" id="confirmCenterDelete" value="Czy na pewno chcesz usun¹æ "%name%"?"/>
+	<input type="hidden" id="troopsSent" value="Wojska zosta³y wys³ane."/>
+
+	<script type="text/javascript">
+//<![CDATA[
+
+$(document).ready(function() {
+	
+	
+	
+	TWMap.autoPixelSize = $(window).width() - 100;
+	TWMap.autoSize = Math.ceil(TWMap.autoPixelSize / TWMap.tileSize[0]);
+
+			TWMap.size = [9, 9];
+	
+	TWMap.popup.extraInfo = false;
+	
+	TWMap.church.displayed = false;
+
+	TWMap.init();
+
+            TWMap.focus(337, 691);
+    	
+	TWMap.context.init();
+
+	
+	
+	// Allow resize of map when iPhone/Android phone is flipped.
+
+	if(mobile) {
+		var resizeTimer = null;
+		var flippingSupported = "onorientationchange" in window,
+			flipEvent = flippingSupported ? "orientationchange" : "resize";
+
+		window.addEventListener(flipEvent, function() {
+			var autoSelected = (parseInt($('#map_chooser_select').val()) == 0);
+			if(autoSelected) {
+				if (resizeTimer === null) {
+					resizeTimer = setTimeout(function() {
+						TWMap.resize(0, false);
+						resizeTimer = null;
+					}, 500);
+				}
+			}
+		}, false);
+	}
+	
+});
+//]]>
+</script>
+
+
+<script type="text/html" id="tpl_popup">
+
+	<table id="info_content" class="vis" style="background-color: #e5d7b2; width:auto">
+<% if (special == 'ghost') { %>
+	<tr>
+		<th colspan="2">Miejsce dla zaproszonego</th>
+	</tr>
+	<tr>
+		<td colspan="2">Zaproœ znajomego do gry w s¹siedztwie!</td>
+	</tr>
+<% } else { %>
+<% if (bonus) { %>
+	<tr id="info_bonus_image_row" >
+		<td id="info_bonus_image" rowspan="14"><img src="<%= bonus.img %>" /></td>
+	</tr>
+<% } /* end bonus */ %>
+
+	<tr>
+		<th colspan="2"><%=name%> <%== '(%x%|%y%) K%continent%' %></th>
+	</tr>
+
+
+<% if (bonus) { %>
+	<tr id="info_bonus_text_row">
+		<td colspan="2"><strong id="info_bonus_text"><%= bonus.text %></strong></td>
+	</tr>
+<% } /* end bonus */ %>
+<% if (points) { %>
+	<tr id="info_points_row">
+		<td width="100px">Punkty:</td>
+		<td id="info_points"><%= points %></td>
+	</tr>
+<% } /* end points */ %>
+<% if (owner) { %>
+	<tr id="info_owner_row">
+		<td>W³aœciciel:</td>
+		<td>
+			<% if (owner_image) { %>
+			    <img src="<%= owner_image %>" alt="" class="userimage-tiny" />
+			<% } %>
+
+            <%== '%name% (%points% Punktów &#124; %village_count_text%)', owner %>
+		</td>
+	</tr>
+<% } else if (points == 0) { %>
+	<tr id="info_left_row">
+		<td colspan="2">Lokalizacja specjalna</td>
+	</tr>
+<% } else { %>
+	<tr id="info_left_row">
+		<td colspan="2">Opuszczona</td>
+	</tr>
+<% } /* end owner */ %>
+
+<% if (ally) { %>
+	<tr id="info_ally_row">
+		<td>Plemiê:</td>
+		<td>
+			<% if (ally_image) { %>
+			<img src="<%= ally_image %>" alt="" class="userimage-tiny" />
+			<% } %>
+			<%== '%name% (%points% Punktów)', ally %>
+		</td>
+	</tr>
+<% } /* end ally */ %>
+<% if (extra && extra.reservation && $('#map_popup_reservation').is(":checked")) { %>
+	<tr><td>Rezerwacja dokonana przez:</td><td id="info_reserved_by"><%= extra.reservation.name %> [<%= extra.reservation.ally%>]</td></tr>
+	<tr><td>Rezerwacja wygasa:</td><td id="info_reserved_till"><%= extra.reservation.expires_at %></td></tr>
+<% } %>
+<% if (extra && extra.attack && $('#map_popup_attack').is(":checked")) { %>
+	<tr>
+		<td>Ostatni atak:</td>
+		<td id="info_last_attack">
+			<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/<%= TWMap.popup.attackDots[extra.attack.dot]%>" title="" alt="" class="" />
+			<% if (extra.attack.dot != 4) { %>
+				<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/<%= TWMap.popup.attackMaxLoot[extra.attack.max_loot]%>" title="" alt="" class="" />
+			<% } %>
+
+			<%= extra.attack.time %>
+		</td>
+	</tr>
+<% } %>
+<% if (extra && extra.attack_intel && $('#map_popup_attack_intel').is(":checked")) { %>
+	<tr>
+		<td>Ostatnie dane:</td>
+		<td id="info_last_attack_intel">
+			<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/<%= TWMap.popup.attackDots[extra.attack_intel.dot]%>" title="" alt="" class="" />
+			<% if (extra.attack_intel.dot != 4) { %>
+				<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/<%= TWMap.popup.attackMaxLoot[extra.attack_intel.max_loot]%>" title="" alt="" class="" />
+			<% } %>
+
+			<%= extra.attack_intel.time %>
+			<% if (extra.attack_intel.start_player) { %>
+				<%== 'od %start_player%', extra.attack_intel %>
+			<% } %>
+		</td>
+	</tr>
+<% } %>
+<% if (extra && extra.morale && $('#map_popup_moral').is(":checked") && TWMap.morale) { %>
+	<tr id="info_moral_row">
+		<td>Morale:</td>
+		<td id="info_moral"><%= Math.round(100 * extra.morale) %>%</td>
+	</tr>
+<% } %>
+<% if (extra && extra.groups && extra.groups.length) { %>
+	<tr id="info_village_groups_row">
+		<td>Grupy:</td>
+		<td id="info_village_groups"><%= extra.groups.join(', ') %></td>
+	</tr>
+<% } %>
+<% if (extra && extra.flag && $('#map_popup_flag').is(":checked")) { %>
+	<tr id="info_flag">
+		<td>Flaga:</td>
+		<td id="info_village_flag"><img src="<%= extra.flag.image_path %>"></img> <%= extra.flag.short_desc %></td>
+	</tr>
+<% } %>
+<% if (owner && owner.newbie_time) { %>
+	<tr id="info_newbie_protect_row">
+		<td colspan="2"><%== 'Cel ma jeszcze ochronê pocz¹tkow¹. Mo¿na zaatakowaæ dopiero %newbie_time%.', owner %></td>
+	</tr>
+<% } /* end newbie */ %>
+<% if (extra && extra.resources && $('#map_popup_res').is(":checked")) { %>
+	<tr>
+		<td colspan="2">
+			<table cellpadding="3" class="nowrap">
+				<tr>
+					<% if (extra.resources.wood) { %>
+						<td><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/holz.png" title="" alt="" class="" /> <%= extra.resources.wood %></td>
+					<% } %>
+					<% if (extra.resources.stone) { %>
+						<td><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/lehm.png" title="" alt="" class="" /> <%= extra.resources.stone %></td>
+					<% } %>
+					<% if (extra.resources.iron) { %>
+						<td><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/eisen.png" title="" alt="" class="" /> <%= extra.resources.iron %></td>
+					<% } %>
+					<% if (extra.resources.max) { %>
+						<td><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/res.png" title="" alt="" class="" /> <%= extra.resources.max %></td>
+					<% } %>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<% } %>
+<%
+  var showPopulation = extra && extra.population && $('#map_popup_pop').is(":checked");
+  var showTrader = extra && extra.trader && $('#map_popup_trader').is(":checked");
+%>
+
+<% if (showPopulation || showTrader) { %>
+	<tr>
+		<% if (showPopulation && showTrader) { %>
+		<td>
+		<% } else { %>
+		<td colspan="2">
+		<% } %>
+
+		<% if (showPopulation) { %>
+			<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/face.png" title="" alt="" class="" /> <%= extra.population.current %>/<%= extra.population.max %>
+		<% } %>
+
+		<% if (showPopulation && showTrader) { %> </td><td> <% } %>
+
+		<% if (showTrader) { %>
+			<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/overview/trader.png" title="" alt="" class="" /> <%= extra.trader.current %>/<%= extra.trader.total %>
+		<% } %>
+		</td>
+	</tr>
+<% } %>
+<%
+  var bg_colors = ['F8F4E8', 'DED3B9'];
+  if (units.length > 0) {
+%>
+	<tr>
+		<td colspan="2">
+			<table style="border:1px solid #DED3B9" width="100%" cellpadding="0" cellspacing="0">
+				<tr class="center">
+					<% for (var i = 0; i < units.length; i++) { %>
+					<td style="padding:2px;background-color:#<%= bg_colors[i%2] %>">
+						<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/<%= units[i].image %>" title="" alt="" class="" />
+					</td>
+					<% } %>
+				</tr>
+				<% if (units_display.count) { %>
+				<tr class="center">
+					<% for (var i = 0; i < units.length; i++) { %>
+					<td style="padding:2px;background-color:#<%= bg_colors[i%2] %>">
+						<%= units[i].count %>
+					</td>
+					<% } %>
+				</tr>
+				<% } /* end unit count */ %>
+				<% if (units_display.time) { %>
+				<tr class="center">
+					<% for (var i = 0; i < units.length; i++) { %>
+					<td style="padding:2px;background-color:#<%= bg_colors[i%2] %>">
+						<%= units[i].time %>
+					</td>
+					<% } %>
+				</tr>
+				<% } /* end unit times */ %>
+
+			</table>
+		</td>
+	</tr>
+<%
+  } /* end units */
+%>
+<% if (extra && extra.notes && $('#map_popup_notes').is(':checked')) { %>
+	<tr>
+		<td colspan="2"><hr /><u>Notatki:</u> <%= extra.notes %></td>
+	</tr>
+<% } /* end notes */ %>
+<% if (extra && extra.incoming_earliest && $('#map_popup_incoming').is(':checked')) { %>
+	<tr>
+		<td colspan="2"> <%= extra.incoming_html %></td>
+	</tr>
+<% } %>
+<% if (extra === false) { %>
+	<tr>
+		<td colspan="2"><table><tr><td><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/throbber.gif" title="" alt="" class="" /></td><td>£adowanie informacji...</td></tr></table></td>
+	</tr>
+<% } %>
+
+<% } %>
+
+</table>
+</script>
+<div id="map_popup" class="nowrap" style="position:absolute; top:0px; left:0px; min-width:150px; display:none; z-index:20; direction:ltr;">
+</div>
+
+
+
+	                               		</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<p class="server_info">
+			Czas: <span id="serverTime">15:37:17</span> <span id="serverDate">07/06/2015</span>
+			<span id="dev_console" style="display: none"><b>|</b> <a href="?screen=74:72:69:62:61:6c:77:61:72:73">developer console</a></span>
+					</p>
+
+	</td>
+	<td class="bg_right" id="SkyScraperAdCell">
+		<div class="bg_right"> </div>
+		            <div id="SkyScraperAd">
+                <script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://openx.innogames.de/delivery/ajs.php':'http://openx.innogames.de/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=59");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://openx.innogames.de/delivery/ck.php?n=ae936cea&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://openx.innogames.de/delivery/avw.php?zoneid=59&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=ae936cea' border='0' alt='' /></a></noscript>
+            </div>
+        	</td>
+</tr>
+
+						<tr>
+				<td class="bg_leftborder"> </td>
+				<td></td>
+				<td class="bg_rightborder"> </td>
+			</tr>
+			<tr class="newStyleOnly">
+				<td class="bg_bottomleft">&nbsp;</td>
+				<td class="bg_bottomcenter">&nbsp;</td>
+				<td class="bg_bottomright">&nbsp;</td>
+			</tr>
+							<tr><td colspan="3" align="center"><div id="AdBottom"></div></td></tr>
+						</table><!-- .main_layout -->
+					
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1897727-4']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_gat._anonymizeIp']);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+
+</script>
+
+		
+				<div id="world_selection_clicktrap" class="evt-world-selection-toggle">
+		</div>
+		<div id="world_selection_popup">
+			<div class="servers-list-top"></div>
+			<div id="servers-list-block">
+			
+			</div>
+			<div class="servers-list-bottom"></div>
+		</div>
+		
+		<div class="chat-open-buffer"></div>
+
+		<div id="bottom">
+			<div id="chat-wrapper">
+			</div>
+
+			<div id="footer">
+				<a href="#" id="unsupported-browser">
+					<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/error.png" title="" alt="" class="" /> Niewspierana przegl¹darka.
+				</a>
+				<div id="linkContainer">
+										<a href="#" class="world_button_active evt-world-selection-toggle">Œwiat 92</a>
+										<a href="http://forum.plemiona.pl//index.php" class="footer-link" target="_blank">Forum</a>
+					&nbsp;-&nbsp;
+					<a href="http://help.plemiona.pl" class="footer-link" target="_blank">Pomoc</a>
+															&nbsp;-&nbsp;
+					<a href="/game.php?village=70327&amp;mode=ticket&amp;screen=settings" class="footer-link" target="_blank">Support</a>
+																&nbsp;-&nbsp;
+						<a href="/game.php?village=70327&amp;mode=ref&amp;source=bottom_menu&amp;screen=settings" class="footer-link">Zaproœ graczy</a>
+															&nbsp;-&nbsp;
+					<a href="/game.php?village=70327&amp;screen=memo" class="footer-link">Notatki</a>
+															&nbsp;-&nbsp;
+					<a href="#" id="paris-opener" class="paris-badge" onclick="PARIS.open(); return false">Przeœlij opiniê</a>
+										&nbsp;-&nbsp;
+					<a href="/game.php?village=70327&amp;action=logout&amp;h=8c6e49b0&amp;screen=" target="_top" class="footer-link">Wyloguj</a>
+				</div>
+			</div>
+		</div>
+		
+
+
+
+
+<script>
+	$(document).ready(function() {
+		TribalWars.initTab('ab58fe3644');
+		Timing.init(1433684237.8871);
+
+
+
+			WorldSwitch.init();
+		WorldSwitch.worldsURL = '/game.php?village=70327&ajax=world_switch&screen=api';
+	
+			HotKeys.init();
+	
+			Connection.connect(8080, '9c26f9d3d76d', true);
+	
+			UI.Notification.enabled = true;
+	
+	
+	
+	
+		});
+</script>
+
+
+<div id="side-notification-container"></div>
+</body>
+</html>

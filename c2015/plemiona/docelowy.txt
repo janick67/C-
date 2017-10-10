@@ -1,0 +1,672 @@
+[1]
+x = 320
+y = 682
+size = 91
+owner = 0
+far = 19.2354
+
+[2]
+x = 320
+y = 686
+size = 72
+owner = 0
+far = 17.72
+
+[3]
+x = 320
+y = 696
+size = 55
+owner = 0
+far = 17.72
+
+[4]
+x = 320
+y = 698
+size = 98
+owner = 0
+far = 18.3848
+
+[5]
+x = 321
+y = 681
+size = 101
+owner = 0
+far = 18.868
+
+[6]
+x = 321
+y = 699
+size = 53
+owner = 0
+far = 17.8885
+
+[7]
+x = 322
+y = 688
+size = 70
+owner = 0
+far = 15.2971
+
+[8]
+x = 323
+y = 680
+size = 111
+owner = 0
+far = 17.8045
+
+[9]
+x = 323
+y = 692
+size = 71
+owner = 0
+far = 14.0357
+
+[10]
+x = 324
+y = 687
+size = 64
+owner = 0
+far = 13.6015
+
+[11]
+x = 325
+y = 683
+size = 54
+owner = 0
+far = 14.4222
+
+[12]
+x = 325
+y = 694
+size = 57
+owner = 0
+far = 12.3693
+
+[13]
+x = 326
+y = 685
+size = 74
+owner = 0
+far = 12.53
+
+[14]
+x = 326
+y = 687
+size = 94
+owner = 0
+far = 11.7047
+
+[15]
+x = 326
+y = 694
+size = 81
+owner = 0
+far = 11.4018
+
+[16]
+x = 326
+y = 695
+size = 42
+owner = 0
+far = 11.7047
+
+[17]
+x = 327
+y = 681
+size = 127
+owner = 0
+far = 14.1421
+
+[18]
+x = 327
+y = 682
+size = 52
+owner = 0
+far = 13.4536
+
+[19]
+x = 327
+y = 685
+size = 108
+owner = 0
+far = 11.6619
+
+[20]
+x = 329
+y = 693
+size = 56
+owner = 0
+far = 8.24621
+
+[21]
+x = 330
+y = 686
+size = 82
+owner = 0
+far = 8.60233
+
+[22]
+x = 331
+y = 681
+size = 26
+owner = 0
+far = 11.6619
+
+[23]
+x = 332
+y = 687
+size = 85
+owner = 0
+far = 6.40312
+
+[24]
+x = 332
+y = 689
+size = 110
+owner = 0
+far = 5.38516
+
+[25]
+x = 332
+y = 695
+size = 96
+owner = 0
+far = 6.40312
+
+[26]
+x = 332
+y = 697
+size = 68
+owner = 0
+far = 7.81025
+
+[27]
+x = 333
+y = 682
+size = 105
+owner = 0
+far = 9.84886
+
+[28]
+x = 333
+y = 685
+size = 108
+owner = 0
+far = 7.2111
+
+[29]
+x = 333
+y = 687
+size = 62
+owner = 0
+far = 5.65685
+
+[30]
+x = 334
+y = 695
+size = 73
+owner = 0
+far = 5
+
+[31]
+x = 335
+y = 681
+size = 66
+owner = 0
+far = 10.198
+
+[32]
+x = 335
+y = 684
+size = 152
+owner = 0
+far = 7.28011
+
+[33]
+x = 336
+y = 681
+size = 118
+owner = 0
+far = 10.0499
+
+[34]
+x = 336
+y = 696
+size = 75
+owner = 0
+far = 5.09902
+
+[35]
+x = 337
+y = 681
+size = 40
+owner = 0
+far = 10
+
+[36]
+x = 338
+y = 682
+size = 103
+owner = 0
+far = 9.05539
+
+[37]
+x = 338
+y = 685
+size = 68
+owner = 0
+far = 6.08276
+
+[38]
+x = 338
+y = 688
+size = 26
+owner = 0
+far = 3.16228
+
+[39]
+x = 338
+y = 695
+size = 66
+owner = 0
+far = 4.12311
+
+[40]
+x = 339
+y = 681
+size = 48
+owner = 0
+far = 10.198
+
+[41]
+x = 339
+y = 683
+size = 41
+owner = 0
+far = 8.24621
+
+[42]
+x = 344
+y = 692
+size = 88
+owner = 0
+far = 7.07107
+
+[43]
+x = 345
+y = 680
+size = 183
+owner = 0
+far = 13.6015
+
+[44]
+x = 345
+y = 682
+size = 67
+owner = 0
+far = 12.0416
+
+[45]
+x = 345
+y = 691
+size = 199
+owner = 0
+far = 8
+
+[46]
+x = 346
+y = 681
+size = 83
+owner = 0
+far = 13.4536
+
+[47]
+x = 346
+y = 685
+size = 27
+owner = 0
+far = 10.8167
+
+[48]
+x = 346
+y = 686
+size = 98
+owner = 0
+far = 10.2956
+
+[49]
+x = 347
+y = 681
+size = 40
+owner = 0
+far = 14.1421
+
+[50]
+x = 348
+y = 684
+size = 46
+owner = 0
+far = 13.0384
+
+[51]
+x = 348
+y = 685
+size = 54
+owner = 0
+far = 12.53
+
+[52]
+x = 348
+y = 687
+size = 157
+owner = 0
+far = 11.7047
+
+[53]
+x = 349
+y = 690
+size = 142
+owner = 0
+far = 12.0416
+
+[54]
+x = 350
+y = 690
+size = 355
+owner = 0
+far = 13.0384
+
+[55]
+x = 350
+y = 694
+size = 130
+owner = 0
+far = 13.3417
+
+[56]
+x = 351
+y = 680
+size = 176
+owner = 0
+far = 17.8045
+
+[57]
+x = 351
+y = 681
+size = 166
+owner = 0
+far = 17.2047
+
+[58]
+x = 351
+y = 686
+size = 127
+owner = 0
+far = 14.8661
+
+[59]
+x = 351
+y = 693
+size = 74
+owner = 0
+far = 14.1421
+
+[60]
+x = 352
+y = 691
+size = 75
+owner = 0
+far = 15
+
+[61]
+x = 354
+y = 682
+size = 162
+owner = 0
+far = 19.2354
+
+[62]
+x = 354
+y = 686
+size = 58
+owner = 0
+far = 17.72
+
+[63]
+x = 354
+y = 689
+size = 149
+owner = 0
+far = 17.1172
+
+[64]
+x = 354
+y = 697
+size = 106
+owner = 0
+far = 18.0278
+
+[65]
+x = 355
+y = 690
+size = 74
+owner = 0
+far = 18.0278
+
+[66]
+x = 355
+y = 691
+size = 72
+owner = 0
+far = 18
+
+[67]
+x = 355
+y = 694
+size = 135
+owner = 0
+far = 18.2483
+
+[68]
+x = 356
+y = 680
+size = 123
+owner = 0
+far = 21.9545
+
+[69]
+x = 356
+y = 687
+size = 40
+owner = 0
+far = 19.4165
+
+[70]
+x = 356
+y = 694
+size = 105
+owner = 0
+far = 19.2354
+
+[71]
+x = 356
+y = 696
+size = 33
+owner = 0
+far = 19.6469
+
+[72]
+x = 357
+y = 681
+size = 107
+owner = 0
+far = 22.3607
+
+[73]
+x = 357
+y = 682
+size = 88
+owner = 0
+far = 21.9317
+
+[74]
+x = 357
+y = 683
+size = 57
+owner = 0
+far = 21.5407
+
+[75]
+x = 357
+y = 687
+size = 265
+owner = 0
+far = 20.3961
+
+[76]
+x = 357
+y = 694
+size = 101
+owner = 0
+far = 20.2237
+
+[77]
+x = 357
+y = 699
+size = 113
+owner = 0
+far = 21.5407
+
+[78]
+x = 358
+y = 684
+size = 66
+owner = 0
+far = 22.1359
+
+[79]
+x = 358
+y = 688
+size = 149
+owner = 0
+far = 21.2132
+
+[80]
+x = 359
+y = 680
+size = 180
+owner = 0
+far = 24.5967
+
+[81]
+x = 359
+y = 681
+size = 160
+owner = 0
+far = 24.1661
+
+[82]
+x = 359
+y = 682
+size = 396
+owner = 0
+far = 23.7697
+
+[83]
+x = 359
+y = 683
+size = 163
+owner = 0
+far = 23.4094
+
+[84]
+x = 360
+y = 682
+size = 103
+owner = 0
+far = 24.6982
+
+[85]
+x = 360
+y = 685
+size = 103
+owner = 0
+far = 23.7697
+
+[86]
+x = 361
+y = 681
+size = 49
+owner = 0
+far = 26
+
+[87]
+x = 361
+y = 684
+size = 56
+owner = 0
+far = 25
+
+[88]
+x = 361
+y = 686
+size = 53
+owner = 0
+far = 24.5153
+
+[89]
+x = 361
+y = 692
+size = 156
+owner = 0
+far = 24.0208
+
+[90]
+x = 361
+y = 694
+size = 82
+owner = 0
+far = 24.1868
+
+[91]
+x = 362
+y = 680
+size = 203
+owner = 0
+far = 27.313
+
+[92]
+x = 362
+y = 681
+size = 220
+owner = 0
+far = 26.9258
+
+[93]
+x = 362
+y = 682
+size = 55
+owner = 0
+far = 26.5707
+
+[94]
+x = 362
+y = 683
+size = 64
+owner = 0
+far = 26.2488
+
+[95]
+x = 362
+y = 692
+size = 26
+owner = 0
+far = 25.02
+
+[96]
+x = 362
+y = 697
+size = 60
+owner = 0
+far = 25.7099
+

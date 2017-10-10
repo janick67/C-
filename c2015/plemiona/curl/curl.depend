@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1433681860 source:d:\dropbox\c++\c2015\plemiona\curl\curl.cpp
+	<stdio.h>
+	<string>
+	<curl/curl.h>
+	<fstream>
+	<vector>
+
+1429195190 d:\dropbox\c++\c2015\plemiona\curl-7.42.0-win32\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1429657158 d:\dropbox\c++\c2015\plemiona\curl-7.42.0-win32\include\curl\curlver.h
+
+1429657158 d:\dropbox\c++\c2015\plemiona\curl-7.42.0-win32\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1421001562 d:\dropbox\c++\c2015\plemiona\curl-7.42.0-win32\include\curl\curlrules.h
+
+1402483950 d:\dropbox\c++\c2015\plemiona\curl-7.42.0-win32\include\curl\easy.h
+
+1421001562 d:\dropbox\c++\c2015\plemiona\curl-7.42.0-win32\include\curl\multi.h
+	"curl.h"
+
+1428076408 d:\dropbox\c++\c2015\plemiona\curl-7.42.0-win32\include\curl\typecheck-gcc.h
+
+1433685484 source:d:\dropbox\c++\c2015\plemiona\curl\mapy.c
+

@@ -1,0 +1,17 @@
+HTTP/1.1 307 Temporary Redirect
+Server: nginx
+Date: Thu, 05 Oct 2017 18:40:49 GMT
+Content-Type: text/html
+Content-Length: 180
+Connection: keep-alive
+Location: https://www.plemiona.pl/archive/pl92
+X-JoinUs: We are always searching for skilled admins and passionate coders! Go to career.innogames.com and mention this header in your application!
+Cache-Control: public
+
+<html>
+<head><title>307 Temporary Redirect</title></head>
+<body bgcolor="white">
+<center><h1>307 Temporary Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

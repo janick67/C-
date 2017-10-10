@@ -1,0 +1,22 @@
+kulka:
+x
+y
+wielkosc
+id
+predkosc
+przesun
+zjedz
+pojaw
+
+stworz kulki
+
+#include <cstdlib>
+
+int kulki::przesun()
+{
+double dystansx = abs(celx-x);
+double dystansy = abs(cely-y);
+double dystans = sqrt(pow(dystansx)+pow(dystansy));
+x+=dystansx/(dystans/predkosc);
+y+=dystansy/(dystans/predkosc);
+}

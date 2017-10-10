@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<winsock2.h>
+
+       const timeval tv={0,0};
+int main()
+{
+        printf("sec=%d\nusec=%d",tv.tv_sec,tv.tv_usec);
+
+    /*
+int i=5;
+char qwe =static_cast<char> (i)+48;
+char* mes = &qwe;
+printf("%c",qwe);*/
+
+}
+
+
+
+
+int send(const char* mes)
+{
+    printf(mes);
+    return 0;
+}

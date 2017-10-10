@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1334772246 source:c:\documents and settings\admin\moje dokumenty\dropbox\c++\s\main.cpp
+	<SFML/System.hpp>
+	<iostream>
+

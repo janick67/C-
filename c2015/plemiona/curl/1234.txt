@@ -1,0 +1,175 @@
+command_comment">
+						 Rozkaz					</span>
+
+									</span>
+			</span>
+		</th>
+	</tr>
+
+<tr><td rowspan="2">Pochodzenie</td><td>Gracz:</td><td><a href="/game.php?village=70327&amp;id=2685372&amp;screen=info_player"  title="Spejsonowcy">janick67</a></td></tr>
+<tr><td>Wioska:</td><td><span class="village_anchor" data-player="2685372" data-id="70327"><a href="/game.php?village=70327&amp;id=70327&amp;screen=info_village" >janick67 (337|691) K63 </a></span></td></tr>
+<tr><td rowspan="2">Cel</td><td>Gracz:</td><td>---</td></tr>
+<tr><td>Wioska:</td><td><span class="village_anchor" data-player="0" data-id="61553"><a href="/game.php?village=70327&amp;id=61553&amp;screen=info_village" >wioska barbarzyńska (357|694) K63 </a></span></td></tr>
+<tr><td colspan="2">Trwanie:</td><td>3:22:14</td></tr><tr><td colspan="2">Przybycie:</td><td>07.06.15 19:14:28<span class="small grey">:000</span></td></tr>
+<tr><td colspan="2">przybycie za:</td><td><span class="timer">3:14:54</span></td></tr>
+
+
+<tr>
+  <td colspan="3">
+        <a href="/game.php?village=70327&amp;screen=place">&raquo; Plac</a>
+      </td>
+</tr>
+
+</table><br />
+			<table class="vis">
+		<tr><th width="50"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_spear.png" title="Pikinier" alt="" class="" /></th><th width="50"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_sword.png" title="Miecznik" alt="" class="" /></th><th width="50"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_axe.png" title="Topornik" alt="" class="" /></th><th width="50"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_archer.png" title="Łucznik" alt="" class="" /></th><th width="50"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_spy.png" title="Zwiadowca" alt="" class="" /></th><th width="50"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_light.png" title="Lekki kawalerzysta" alt="" class="" /></th><th width="50"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_marcher.png" title="Łucznik na koniu" alt="" class="" /></th><th width="50"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_heavy.png" title="Ciężki kawalerzysta" alt="" class="" /></th><th width="50"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_ram.png" title="Taran" alt="" class="" /></th><th width="50"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_catapult.png" title="Katapulta" alt="" class="" /></th><th width="50"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_knight.png" title="Rycerz" alt="" class="" /></th><th width="50"><img src="http://dspl.innogamescdn.com/8.34/26279/graphic/unit/unit_snob.png" title="Szlachcic" alt="" class="" /></th></tr>
+		<tr><td class='unit-item hidden'>0</td><td class='unit-item hidden'>0</td><td class='unit-item hidden'>0</td><td class='unit-item hidden'>0</td><td class='unit-item'>1</td><td class='unit-item'>7</td><td class='unit-item hidden'>0</td><td class='unit-item hidden'>0</td><td class='unit-item hidden'>0</td><td class='unit-item hidden'>0</td><td class='unit-item hidden'>0</td><td class='unit-item hidden'>0</td></tr>
+		</table>
+	<table class="vis"><tr>
+		<td>Łup:</td><td><span class="nowrap"><span class="icon header wood" title="Drewno"> </span>37</span> <span class="nowrap"><span class="icon header stone" title="Glina"> </span>32</span> <span class="nowrap"><span class="icon header iron" title="Żelazo"> </span>27</span> &nbsp;|&nbsp;96/588</td>
+</tr></table>
+
+<script>
+	$(function(){
+		$('.quickedit').QuickEdit( { show_icons: false, label_element: '#command_comment', url: TribalWars.buildURL('POST', 'info_command', { ajaxaction: 'edit_other_comment', id: '__ID__' } ) } );
+	});
+</script>
+
+	                               		</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<p class="server_info">
+			Czas: <span id="serverTime">15:59:34</span> <span id="serverDate">07/06/2015</span>
+			<span id="dev_console" style="display: none"><b>|</b> <a href="?screen=74:72:69:62:61:6c:77:61:72:73">developer console</a></span>
+					</p>
+
+	</td>
+	<td class="bg_right" id="SkyScraperAdCell">
+		<div class="bg_right"> </div>
+		            <div id="SkyScraperAd">
+                <script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://openx.innogames.de/delivery/ajs.php':'http://openx.innogames.de/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=59");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://openx.innogames.de/delivery/ck.php?n=ae936cea&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://openx.innogames.de/delivery/avw.php?zoneid=59&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=ae936cea' border='0' alt='' /></a></noscript>
+            </div>
+        	</td>
+</tr>
+
+						<tr>
+				<td class="bg_leftborder"> </td>
+				<td></td>
+				<td class="bg_rightborder"> </td>
+			</tr>
+			<tr class="newStyleOnly">
+				<td class="bg_bottomleft">&nbsp;</td>
+				<td class="bg_bottomcenter">&nbsp;</td>
+				<td class="bg_bottomright">&nbsp;</td>
+			</tr>
+							<tr><td colspan="3" align="center"><div id="AdBottom"></div></td></tr>
+						</table><!-- .main_layout -->
+					
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1897727-4']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_gat._anonymizeIp']);
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+
+</script>
+
+		
+				<div id="world_selection_clicktrap" class="evt-world-selection-toggle">
+		</div>
+		<div id="world_selection_popup">
+			<div class="servers-list-top"></div>
+			<div id="servers-list-block">
+			
+			</div>
+			<div class="servers-list-bottom"></div>
+		</div>
+		
+		<div class="chat-open-buffer"></div>
+
+		<div id="bottom">
+			<div id="chat-wrapper">
+			</div>
+
+			<div id="footer">
+				<a href="#" id="unsupported-browser">
+					<img src="http://dspl.innogamescdn.com/8.34/26279/graphic/error.png" title="" alt="" class="" /> Niewspierana przeglądarka.
+				</a>
+				<div id="linkContainer">
+										<a href="#" class="world_button_active evt-world-selection-toggle">Świat 92</a>
+										<a href="http://forum.plemiona.pl//index.php" class="footer-link" target="_blank">Forum</a>
+					&nbsp;-&nbsp;
+					<a href="http://help.plemiona.pl" class="footer-link" target="_blank">Pomoc</a>
+															&nbsp;-&nbsp;
+					<a href="/game.php?village=70327&amp;mode=ticket&amp;screen=settings" class="footer-link" target="_blank">Support</a>
+																&nbsp;-&nbsp;
+						<a href="/game.php?village=70327&amp;mode=ref&amp;source=bottom_menu&amp;screen=settings" class="footer-link">Zaproś graczy</a>
+															&nbsp;-&nbsp;
+					<a href="/game.php?village=70327&amp;screen=memo" class="footer-link">Notatki</a>
+															&nbsp;-&nbsp;
+					<a href="#" id="paris-opener" class="paris-badge" onclick="PARIS.open(); return false">Prześlij opinię</a>
+										&nbsp;-&nbsp;
+					<a href="/game.php?village=70327&amp;action=logout&amp;h=8c6e49b0&amp;screen=" target="_top" class="footer-link">Wyloguj</a>
+				</div>
+			</div>
+		</div>
+		
+
+
+
+
+<script>
+	$(document).ready(function() {
+		TribalWars.initTab('506b1cfae8');
+		Timing.init(1433685574.6307);
+
+
+
+			WorldSwitch.init();
+		WorldSwitch.worldsURL = '/game.php?village=70327&ajax=world_switch&screen=api';
+	
+			HotKeys.init();
+	
+			Connection.connect(8080, '9c26f9d3d76d', true);
+	
+			UI.Notification.enabled = true;
+	
+	
+	
+	
+		});
+</script>
+
+
+<div id="side-notification-container"></div>
+</body>
+</html>

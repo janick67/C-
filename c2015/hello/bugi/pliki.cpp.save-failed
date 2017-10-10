@@ -1,0 +1,62 @@
+#include <dirent.h>
+#include <stdio.h>
+#include <sstream>
+#include <string>
+int i;
+std::string srcnext( std::string src , std::string dont) {
+    struct dirent * plik;
+    DIR * sciezka;
+    std::string temp=src;
+    int tak =0;
+i++;
+printf("1=%s\n",src.c_str());
+    if(( sciezka = opendir( src.c_str() ) ) ) {
+        while(( plik = readdir( sciezka ) ) ){
+                printf("2=%s\n",plik->d_name);
+           src.append(plik->d_name);
+        printf("3=%s\n",src.c_str());
+            if (opendir(src.c_str())!=NULL &&  src.find( "." ) == std::string::npos)
+             {if (tak==1 || dont=="0")
+             {
+                //printf("jestem w%s\n",src.c_str());
+                dont="0";
+                return src.c_str();
+             }
+            if (src.substr(src.rfind("\\")+1)==dont) tak=1;
+             }
+            src=temp;
+             }
+             if (dont!="0" && src=="C:\\") return "0";
+        closedir( sciezka );
+    }
+    else
+    {
+        printf( "! wywołując funkcję opendir(%s) pojawił się błąd otwarcia strumienia dla danej ścieżki, może nie istnieje, lub podano ścieżkę pustą\n", src.c_str() );
+        return "/0";
+    }
+return "1";
+
+}
+
+
+
+main( int argc, char ** argv ) {
+
+    std::string src, last, dont="0";
+    src="C:\\";
+    while (src!="1") {
+           // if (i==6) return 0;
+    last=src;
+    if (src.rfind("\\")<src.length()-1) src.append("\\"); //dodaj backslasha
+    //printf("teraz mam=%s\n",src.c_str());
+    src=srcnext(src,dont); //otwiera podfolder i zwraca do niego sciezke
+   // printf("zwrocilo=%s\n",src.c_str());
+    if (src == "1") //nie ma kolejnego podfolderu
+      {dont=last.substr(last.rfind("\\")+1);
+          last.erase(last.rfind("\\")+1,std::string::npos); //usuwa wszystko po ostatnim backslashu
+        src=last;
+        //printf("back to %s\n",src.c_str());
+      }
+      if (src=="/0") return 0;
+    }
+}
